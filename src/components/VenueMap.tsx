@@ -5,7 +5,7 @@ import * as maplibregl from "maplibre-gl";
 import type { GeoJSONSource, Map as MLMap, Marker } from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
 import type { Home } from "@/lib/home";
-import type { Venue } from "@/lib/venues";
+import { AIRCON_COLORS, airconInfo, type Venue } from "@/lib/venues";
 
 // Free vector tiles, no API key, no usage cap. Swap the style URL here if ever needed.
 export const MAP_STYLE = "https://tiles.openfreemap.org/styles/positron";
@@ -18,23 +18,32 @@ maplibregl.setWorkerUrl("/maplibre-gl-worker.mjs");
 
 type Props = {
   venues: Venue[];
+  ranks: Record<string, number>;
   selectedId: string | null;
   home: Home | null;
   pickMode: boolean;
   padding: { top: number; bottom: number; left: number; right: number };
   focus: { lat: number; lng: number; zoom?: number; key: number } | null;
+  fit: { points: { lat: number; lng: number }[]; key: number } | null;
   onSelect: (id: string | null) => void;
   onPick: (pos: { lat: number; lng: number }) => void;
   onHomeDrag: (pos: { lat: number; lng: number }) => void;
 };
 
-function toGeoJSON(venues: Venue[], selectedId: string | null): GeoJSON.FeatureCollection {
+function toGeoJSON(venues: Venue[], ranks: Record<string, number>, selectedId: string | null): GeoJSON.FeatureCollection {
+  // Ranked venues last so they draw on top.
+  const ordered = [...venues].sort((a, b) => (ranks[a.id] ? 1 : 0) - (ranks[b.id] ? 1 : 0));
   return {
     type: "FeatureCollection",
-    features: venues.map((v) => ({
+    features: ordered.map((v) => ({
       type: "Feature",
       id: v.id,
-      properties: { id: v.id, selected: v.id === selectedId ? 1 : 0 },
+      properties: {
+        id: v.id,
+        selected: v.id === selectedId ? 1 : 0,
+        color: AIRCON_COLORS[airconInfo(v.aircon).tone],
+        rank: ranks[v.id] ?? 0,
+      },
       geometry: { type: "Point", coordinates: [v.lng, v.lat] },
     })),
   };
@@ -71,7 +80,7 @@ export default function VenueMap(props: Props) {
     m.on("load", () => {
       m.addSource("venues", {
         type: "geojson",
-        data: toGeoJSON(latest.current.venues, latest.current.selectedId),
+        data: toGeoJSON(latest.current.venues, latest.current.ranks, latest.current.selectedId),
       });
       m.addLayer({
         id: "venue-halo",
@@ -79,9 +88,11 @@ export default function VenueMap(props: Props) {
         source: "venues",
         filter: ["==", ["get", "selected"], 1],
         paint: {
-          "circle-radius": 18,
+          "circle-radius": 19,
           "circle-color": "#0071e3",
-          "circle-opacity": 0.18,
+          "circle-opacity": 0.14,
+          "circle-stroke-color": "#0071e3",
+          "circle-stroke-width": 2.5,
         },
       });
       m.addLayer({
@@ -94,16 +105,31 @@ export default function VenueMap(props: Props) {
             ["linear"],
             ["zoom"],
             5,
-            ["case", ["==", ["get", "selected"], 1], 8, 4],
+            ["case", [">", ["get", "rank"], 0], 9, ["==", ["get", "selected"], 1], 8, 4.5],
             10,
-            ["case", ["==", ["get", "selected"], 1], 9, 6.5],
+            ["case", [">", ["get", "rank"], 0], 12, ["==", ["get", "selected"], 1], 10, 7],
             14,
-            ["case", ["==", ["get", "selected"], 1], 10, 8],
+            ["case", [">", ["get", "rank"], 0], 13, ["==", ["get", "selected"], 1], 11, 8.5],
           ],
-          "circle-color": ["case", ["==", ["get", "selected"], 1], "#0071e3", "#1d1d1f"],
+          "circle-color": ["get", "color"],
           "circle-stroke-color": "#ffffff",
           "circle-stroke-width": ["interpolate", ["linear"], ["zoom"], 5, 1.5, 12, 2.5],
         },
+      });
+      // Rank numbers 1-5 on the recommended venues.
+      m.addLayer({
+        id: "venue-rank",
+        type: "symbol",
+        source: "venues",
+        filter: [">", ["get", "rank"], 0],
+        layout: {
+          "text-field": ["to-string", ["get", "rank"]],
+          "text-font": ["Noto Sans Bold"],
+          "text-size": ["interpolate", ["linear"], ["zoom"], 5, 11, 10, 14],
+          "text-allow-overlap": true,
+          "text-ignore-placement": true,
+        },
+        paint: { "text-color": "#ffffff" },
       });
       // Invisible, larger hit area so dots are tappable on phones.
       m.addLayer({
@@ -145,8 +171,8 @@ export default function VenueMap(props: Props) {
   useEffect(() => {
     const m = map.current;
     if (!m || !ready.current) return;
-    (m.getSource("venues") as GeoJSONSource | undefined)?.setData(toGeoJSON(props.venues, props.selectedId));
-  }, [props.venues, props.selectedId]);
+    (m.getSource("venues") as GeoJSONSource | undefined)?.setData(toGeoJSON(props.venues, props.ranks, props.selectedId));
+  }, [props.venues, props.ranks, props.selectedId]);
 
   // Padding follows the bottom sheet / sidebar.
   useEffect(() => {
@@ -163,6 +189,17 @@ export default function VenueMap(props: Props) {
     const go = () => m.flyTo({ center: [f.lng, f.lat], zoom: f.zoom ?? Math.max(m.getZoom(), 13), padding: latest.current.padding, speed: 1.6 });
     go();
   }, [props.focus]);
+
+  // Fit home + recommended venues.
+  useEffect(() => {
+    const m = map.current;
+    const f = props.fit;
+    if (!m || !f || f.points.length < 2) return;
+    const b = new maplibregl.LngLatBounds();
+    f.points.forEach((p) => b.extend([p.lng, p.lat]));
+    // The map already carries the sheet/sidebar padding (setPadding); this is extra margin on top of it.
+    m.fitBounds(b, { padding: { top: 90, bottom: 30, left: 40, right: 50 }, maxZoom: 14, duration: 700 });
+  }, [props.fit]);
 
   // Emoji home marker.
   useEffect(() => {

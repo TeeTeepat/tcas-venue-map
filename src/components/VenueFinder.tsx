@@ -5,8 +5,10 @@ import Link from "next/link";
 import { useCallback, useDeferredValue, useEffect, useMemo, useRef, useState } from "react";
 import { HOME_EMOJIS, locateMe, useHome } from "@/lib/home";
 import {
+  AIRCON_COLORS,
   DATA,
   EXAMS,
+  airconTier,
   VENUES,
   airconInfo,
   directionsUrl,
@@ -19,6 +21,7 @@ import {
   thaiDate,
   transitInfo,
   type ExamCode,
+  type LatLng,
   type Venue,
 } from "@/lib/venues";
 import { ArrowIcon, Chip, ChevronIcon, LocateIcon, SearchIcon, SnowIcon, TrainIcon } from "./ui";
@@ -54,9 +57,46 @@ function useViewportHeight() {
   return h;
 }
 
-type Row = { v: Venue; km: number | null; seats: number | null };
+type Row = { v: Venue; km: number | null; seats: number | null; rank?: number | null };
+
+/**
+ * In "A/C first" mode, A/C venues only win if they are within this radius:
+ * at least 50 km, or 1.5x the distance to the 5th-nearest venue (so rural areas,
+ * where venues are far apart, still get A/C picks instead of nothing).
+ */
+const AC_MIN_RADIUS_KM = 50;
+const AC_RADIUS_FACTOR = 1.5;
+const TOP_N = 5;
 
 const HAY = new Map(VENUES.map((v) => [v.id, searchKey(`${displayName(v)}${v.name}${v.amphur}${v.province}${v.centre ?? ""}`)]));
+
+function computeRows(exam: ExamCode | null, q: string, home: LatLng | null, acFirst: boolean): Row[] {
+  const tokens = q.split(/\s+/).map(searchKey).filter(Boolean);
+  let list = VENUES.filter((v) => !exam || v.exams.includes(exam));
+  if (tokens.length) list = list.filter((v) => tokens.every((t) => HAY.get(v.id)!.includes(t)));
+  const out: Row[] = list.map((v) => ({ v, km: home ? distanceKm(home, v) : null, seats: seatsFor(v, exam), rank: null }));
+  if (!home) {
+    if (acFirst) out.sort((a, b) => airconTier(a.v.aircon) - airconTier(b.v.aircon));
+    return out;
+  }
+  out.sort((a, b) => (a.km ?? 0) - (b.km ?? 0));
+  if (tokens.length) return out; // searching: plain distance order, no picks
+  let picks: Row[];
+  if (acFirst) {
+    // Nearest all-room A/C venues first; if fewer than 5 nearby, fill with some-room A/C,
+    // then with whatever is nearest.
+    const fifth = out[Math.min(TOP_N, out.length) - 1]?.km ?? 0;
+    const radius = Math.max(AC_MIN_RADIUS_KM, fifth * AC_RADIUS_FACTOR);
+    const near = out.filter((r) => (r.km ?? 0) <= radius);
+    picks = near.filter((r) => airconTier(r.v.aircon) === 0).slice(0, TOP_N);
+    for (const r of near) if (picks.length < TOP_N && airconTier(r.v.aircon) === 1) picks.push(r);
+    for (const r of out) if (picks.length < TOP_N && !picks.includes(r)) picks.push(r);
+  } else {
+    picks = out.slice(0, TOP_N);
+  }
+  const ranked = picks.map((r, i) => ({ ...r, rank: i + 1 }));
+  return [...ranked, ...out.filter((r) => !picks.includes(r))];
+}
 
 export default function VenueFinder() {
   const [home, setHome] = useHome();
@@ -69,20 +109,26 @@ export default function VenueFinder() {
   const [gpsState, setGpsState] = useState<"idle" | "busy" | "denied" | "error">("idle");
   const [focus, setFocus] = useState<{ lat: number; lng: number; zoom?: number; key: number } | null>(null);
   const [snap, setSnap] = useState<Snap>("half");
+  const [acFirst, setAcFirst] = useState(false);
+  const [fit, setFit] = useState<{ points: { lat: number; lng: number }[]; key: number } | null>(null);
   const isDesktop = useIsDesktop();
   const vh = useViewportHeight();
   const listRef = useRef<HTMLDivElement>(null);
 
-  const rows: Row[] = useMemo(() => {
-    const tokens = q.split(/\s+/).map(searchKey).filter(Boolean);
-    let list = VENUES.filter((v) => !exam || v.exams.includes(exam));
-    if (tokens.length) list = list.filter((v) => tokens.every((t) => HAY.get(v.id)!.includes(t)));
-    const out = list.map((v) => ({ v, km: home ? distanceKm(home, v) : null, seats: seatsFor(v, exam) }));
-    if (home) out.sort((a, b) => (a.km ?? 0) - (b.km ?? 0));
-    return out;
-  }, [exam, q, home]);
+  const rows: Row[] = useMemo(() => computeRows(exam, q, home, acFirst), [exam, q, home, acFirst]);
 
   const mapVenues = useMemo(() => rows.map((r) => r.v), [rows]);
+  const ranks = useMemo(() => Object.fromEntries(rows.filter((r) => r.rank).map((r) => [r.v.id, r.rank!])), [rows]);
+  const picksAc = rows.filter((r) => r.rank).map((r) => airconTier(r.v.aircon));
+
+  // After the user changes what "top 5" means, show home + all 5 picks on the map.
+  const refit = (nextExam: ExamCode | null, nextAc: boolean) => {
+    if (!home) return;
+    const picks = computeRows(nextExam, q, home, nextAc)
+      .filter((r) => r.rank)
+      .map((r) => ({ lat: r.v.lat, lng: r.v.lng }));
+    if (picks.length) setFit((f) => ({ points: [home, ...picks], key: (f?.key ?? 0) + 1 }));
+  };
   const selected = selectedId ? VENUES.find((v) => v.id === selectedId) ?? null : null;
   const selectedRow = selected ? { v: selected, km: home ? distanceKm(home, selected) : null, seats: seatsFor(selected, exam) } : null;
 
@@ -210,7 +256,10 @@ export default function VenueFinder() {
                 key={code ?? "all"}
                 role="tab"
                 aria-selected={active}
-                onClick={() => setExam(code)}
+                onClick={() => {
+                  setExam(code);
+                  refit(code, acFirst);
+                }}
                 className={`shrink-0 rounded-full px-3.5 py-1.5 text-[13px] font-medium transition ${
                   active ? "bg-[#1d1d1f] text-white" : "bg-[#f2f2f4] text-[#1d1d1f] hover:bg-[#e8e8ed]"
                 }`}
@@ -220,6 +269,29 @@ export default function VenueFinder() {
             );
           })}
         </div>
+        <button
+          onClick={() => {
+            setAcFirst(!acFirst);
+            refit(exam, !acFirst);
+          }}
+          role="switch"
+          aria-checked={acFirst}
+          className="mt-3 flex w-full items-center gap-3 rounded-2xl bg-[#f5f5f7] px-3.5 py-2.5 text-left"
+        >
+          <span className="min-w-0 flex-1">
+            <span className="block text-[14px] font-medium text-[#1d1d1f]">เน้นสนามที่มีแอร์</span>
+            <span className="block text-[12px] leading-snug text-[#6e6e73]">
+              {home
+                ? "5 อันดับเลือกแอร์ทุกห้องที่ใกล้สุดก่อน ไม่ครบเติมแอร์บางห้องที่ใกล้สุด"
+                : "เรียงแอร์ทุกห้องขึ้นก่อน ปักหมุดบ้านเพื่อดู 5 อันดับแนะนำ"}
+            </span>
+          </span>
+          <span className={`relative h-[31px] w-[51px] shrink-0 rounded-full transition ${acFirst ? "bg-[#30b158]" : "bg-[#e3e3e8]"}`}>
+            <span
+              className={`absolute top-[2px] h-[27px] w-[27px] rounded-full bg-white shadow-[0_2px_6px_rgba(0,0,0,.2)] transition-all ${acFirst ? "left-[22px]" : "left-[2px]"}`}
+            />
+          </span>
+        </button>
         {examLabel && (
           <p className="mt-2 text-[12px] text-[#6e6e73]">
             {examLabel.code} {examLabel.full} · สอบ{" "}
@@ -335,12 +407,20 @@ export default function VenueFinder() {
             {fmt(rows.length)} สนาม{exam ? `ที่สอบ ${exam}` : ""}
             {home ? " · ใกล้สุดก่อน" : ""}
           </span>
-          {home && rows.length >= 5 && <span>5 อันดับแรก = แนะนำให้เลือก</span>}
+          {rows.some((r) => r.rank) && (
+            <span>
+              {acFirst
+                ? `แนะนำ: แอร์ทุกห้อง ${picksAc.filter((t) => t === 0).length} · บางห้อง ${picksAc.filter((t) => t === 1).length}${
+                    picksAc.some((t) => t > 1) ? ` · อื่นๆ ${picksAc.filter((t) => t > 1).length}` : ""
+                  }`
+                : "5 อันดับแรก = ใกล้สุด"}
+            </span>
+          )}
         </div>
         <ul>
-          {rows.map((r, i) => (
+          {rows.map((r) => (
             <li key={r.v.id}>
-              <VenueRow row={r} rank={home && !q ? i + 1 : null} active={r.v.id === selectedId} onClick={() => select(r.v.id)} />
+              <VenueRow row={r} rank={r.rank ?? null} active={r.v.id === selectedId} onClick={() => select(r.v.id)} />
             </li>
           ))}
         </ul>
@@ -366,6 +446,8 @@ export default function VenueFinder() {
     <main className="fixed inset-0 overflow-hidden bg-[#f2f2f4]">
       <VenueMap
         venues={mapVenues}
+        ranks={ranks}
+        fit={fit}
         selectedId={selectedId}
         home={home}
         pickMode={pickMode}
@@ -375,6 +457,8 @@ export default function VenueFinder() {
         onPick={onPick}
         onHomeDrag={(pos) => home && setHome({ ...home, ...pos })}
       />
+
+      {!pickMode && <Legend isDesktop={isDesktop} />}
 
       {pickMode && (
         <div className="pointer-events-none absolute inset-x-0 top-4 z-20 flex justify-center px-4 md:left-[436px]">
@@ -438,13 +522,18 @@ function VenueRow({ row, rank, active, onClick }: { row: Row; rank: number | nul
       onClick={onClick}
       className={`flex w-full items-start gap-3 px-5 py-3 text-left transition ${active ? "bg-[#0071e3]/[0.06]" : "hover:bg-black/[0.025]"}`}
     >
-      <span
-        className={`mt-0.5 grid h-7 w-7 shrink-0 place-items-center rounded-full text-[12px] font-semibold tabular-nums ${
-          top ? "bg-[#0071e3] text-white" : "bg-[#f2f2f4] text-[#86868b]"
-        }`}
-      >
-        {rank ?? "•"}
-      </span>
+      {top ? (
+        <span
+          className="mt-0.5 grid h-7 w-7 shrink-0 place-items-center rounded-full text-[12.5px] font-semibold text-white tabular-nums shadow-sm"
+          style={{ background: AIRCON_COLORS[ac.tone] }}
+        >
+          {rank}
+        </span>
+      ) : (
+        <span className="mt-0.5 grid h-7 w-7 shrink-0 place-items-center">
+          <span className="h-3 w-3 rounded-full ring-2 ring-white" style={{ background: AIRCON_COLORS[ac.tone] }} />
+        </span>
+      )}
       <span className="min-w-0 flex-1">
         <span className="block truncate text-[15px] font-medium text-[#1d1d1f]">{displayName(v)}</span>
         <span className="mt-0.5 block truncate text-[12.5px] text-[#6e6e73]">
@@ -536,6 +625,30 @@ function Stat({ label, value, tone }: { label: string; value: string; tone?: str
     <div className="rounded-xl bg-[#f5f5f7] px-2 py-2">
       <p className="text-[11px] text-[#86868b]">{label}</p>
       <p className={`mt-0.5 text-[14px] font-semibold tabular-nums ${color}`}>{value}</p>
+    </div>
+  );
+}
+
+function Legend({ isDesktop }: { isDesktop: boolean }) {
+  const items: [string, string][] = [
+    [AIRCON_COLORS.good, "แอร์ทุกห้อง"],
+    [AIRCON_COLORS.mid, "แอร์บางห้อง"],
+    [AIRCON_COLORS.bad, "ไม่มีแอร์"],
+    [AIRCON_COLORS.unknown, "ไม่ทราบ"],
+  ];
+  return (
+    <div
+      className={`glass pointer-events-none absolute z-10 rounded-2xl px-3 py-2 ${isDesktop ? "top-3 left-[436px]" : "top-[max(env(safe-area-inset-top),12px)] left-3"}`}
+      aria-label="สีจุดบอกสถานะแอร์ของสนาม"
+    >
+      <ul className={isDesktop ? "flex gap-3" : "grid grid-cols-2 gap-x-3 gap-y-1"}>
+        {items.map(([c, l]) => (
+          <li key={l} className="flex items-center gap-1.5 text-[11.5px] font-medium text-[#1d1d1f]">
+            <span className="h-2.5 w-2.5 rounded-full ring-2 ring-white" style={{ background: c }} />
+            {l}
+          </li>
+        ))}
+      </ul>
     </div>
   );
 }

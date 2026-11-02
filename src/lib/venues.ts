@@ -86,6 +86,14 @@ export function airconInfo(a: string | null): { label: string; short: string; to
   }
 }
 
+/** Map dot colours (Apple system palette): green = all rooms, orange = some, red = none, grey = unknown. */
+export const AIRCON_COLORS = { good: "#30b158", mid: "#ff9500", bad: "#ff3b30", unknown: "#a1a1a6" } as const;
+
+/** 0 = all rooms, 1 = some rooms, 2 = none, 3 = unknown. */
+export function airconTier(a: string | null) {
+  return a === "แอร์ทุกห้อง" ? 0 : a === "แอร์บางห้อง" ? 1 : a === "ไม่มีแอร์ทุกห้อง" ? 2 : 3;
+}
+
 export function transitInfo(t: string | null): { label: string; tone: Tone } {
   switch (t) {
     case "รถไฟฟ้า":

@@ -21,6 +21,8 @@ Seat numbers are venue capacity, not seats left - TCAS70 allocates seats central
 ## Stack
 
 Next.js static export (`out/`), Tailwind, MapLibre GL + OpenFreeMap tiles (no API key).
+Hosted on Cloudflare Pages at https://tcas.teerapatk.com (Git integration: build
+`npm run build`, output `out`, Node from `.node-version`).
 The home pin lives only in the browser's localStorage.
 
 ```bash
@@ -31,4 +33,4 @@ npm run build  # static site in out/
 ## Roadmap
 
 - Google Sheet for extras (parking, food, rooms) + Google Form for student tips
-- Ads + PromptPay donation (move hosting to Cloudflare Pages, add privacy page + PDPA consent)
+- Ads (needs privacy page + PDPA consent). PromptPay coffee donation is live.

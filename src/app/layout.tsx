@@ -8,7 +8,11 @@ const thai = Noto_Sans_Thai({
   weight: ["400", "500", "600", "700"],
 });
 
+export const SITE_URL = "https://tcas.teerapatk.com";
+
 export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
+  alternates: { canonical: "/" },
   title: "สนามสอบ TGAT/TPAT ใกล้บ้าน · TCAS70",
   description:
     "ค้นหาสนามสอบ TGAT/TPAT2-5 TCAS70 ใกล้บ้าน ดูจำนวนที่นั่ง แอร์ รถไฟฟ้า ของทุกสนามทั่วประเทศ ปักหมุดบ้านแล้วเรียงสนามจากใกล้ไปไกล",

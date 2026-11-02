@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Chip, SnowIcon, TrainIcon } from "@/components/ui";
 import { DirectionsButton, HomeDistance, MiniMapLazy } from "@/components/VenueClientBits";
+import { DonateButton } from "@/components/Donate";
 import { DATA, EXAMS, VENUES, airconInfo, daySeats, displayName, fmt, thaiDate, transitInfo } from "@/lib/venues";
 
 export const dynamicParams = false;
@@ -20,7 +21,7 @@ export async function generateMetadata({ params }: PageProps<"/venue/[id]">): Pr
   const ac = airconInfo(v.aircon);
   const title = `${name} สนามสอบ TGAT/TPAT ${v.province} · TCAS${DATA.tcasYear}`;
   const description = `${name} ${v.amphur} ${v.province} สนามสอบ ${v.exams.join(", ")} รับสูงสุด ${fmt(v.maxSeats)} ที่นั่ง · ${ac.label} · ${transitInfo(v.transit).label}`;
-  return { title, description, openGraph: { title, description, locale: "th_TH" } };
+  return { title, description, alternates: { canonical: `/venue/${v.id}/` }, openGraph: { title, description, locale: "th_TH" } };
 }
 
 export default async function VenuePage({ params }: PageProps<"/venue/[id]">) {
@@ -121,6 +122,9 @@ export default async function VenuePage({ params }: PageProps<"/venue/[id]">) {
             mytcas.com
           </a>{" "}
           (ทปอ.) ทปอ. เป็นผู้จัดสรรที่นั่งสอบ โปรดตรวจสนามจริงจากบัตรที่นั่งสอบ เว็บนี้ไม่ใช่เว็บทางการของ ทปอ.
+        </p>
+        <p className="mt-3 px-2 text-[12.5px]">
+          <DonateButton variant="link" />
         </p>
       </div>
     </main>

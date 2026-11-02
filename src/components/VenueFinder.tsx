@@ -4,6 +4,7 @@ import dynamic from "next/dynamic";
 import Link from "next/link";
 import { useCallback, useDeferredValue, useEffect, useMemo, useRef, useState } from "react";
 import { locateMe, useHome, useMyLocation } from "@/lib/home";
+import { DonateButton } from "./Donate";
 import {
   AIRCON_COLORS,
   DATA,
@@ -227,10 +228,10 @@ export default function VenueFinder() {
       <div className="px-5 pt-1 pb-3">
         <div className="flex items-baseline justify-between gap-3">
           <h1 className="text-[22px] font-semibold tracking-tight text-[#1d1d1f]">สนามสอบ TGAT/TPAT</h1>
-          <span className="shrink-0 text-[12px] text-[#86868b]">TCAS{DATA.tcasYear}</span>
+          <DonateButton />
         </div>
         <p className="mt-0.5 text-[13px] text-[#6e6e73]">
-          {fmt(VENUES.length)} สนาม · 77 จังหวัด · ข้อมูลจาก mytcas
+          TCAS{DATA.tcasYear} · {fmt(VENUES.length)} สนาม · 77 จังหวัด · ข้อมูลจาก mytcas
         </p>
 
         <label className="mt-3 flex items-center gap-2 rounded-xl bg-[#f2f2f4] px-3 py-2 text-[#86868b] focus-within:ring-2 focus-within:ring-[#0071e3]/30">
@@ -445,6 +446,9 @@ export default function VenueFinder() {
             จำนวนที่นั่งคือความจุของสนาม ไม่ใช่ที่นั่งว่าง ทปอ. เป็นผู้จัดสรรที่นั่ง โปรดตรวจสนามจริงจากบัตรที่นั่งสอบ ระยะทางเป็นเส้นตรง
           </p>
           <p className="mt-1">เว็บนี้ไม่ใช่เว็บทางการของ ทปอ.</p>
+          <p className="mt-3">
+            <DonateButton variant="link" />
+          </p>
         </footer>
       </div>
     </>

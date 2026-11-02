@@ -41,4 +41,5 @@ yarn-error.log*
 next-env.d.ts
 
 # generated at build from node_modules
+/public/maplibre-gl-worker.js
 /public/maplibre-gl-worker.mjs

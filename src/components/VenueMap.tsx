@@ -15,7 +15,8 @@ const THAILAND_BOUNDS: [[number, number], [number, number]] = [
 ];
 
 // Versioned URL so browsers that cached a bad copy of the worker fetch a fresh one.
-maplibregl.setWorkerUrl(`/maplibre-gl-worker.mjs?v=${maplibregl.getVersion()}-2`);
+// .js (not .mjs) so Cloudflare caches it at the edge; still loaded as a module worker.
+maplibregl.setWorkerUrl(`/maplibre-gl-worker.js?v=${maplibregl.getVersion()}-3`);
 
 function hasWebGL() {
   try {

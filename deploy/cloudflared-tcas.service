@@ -1,0 +1,13 @@
+[Unit]
+Description=Cloudflare Tunnel for tcas.teerapatk.com (TCAS venue map)
+After=network-online.target nginx.service
+Wants=network-online.target
+
+[Service]
+User=contact_mykotoka_com
+ExecStart=/usr/local/bin/cloudflared --no-autoupdate --config /home/contact_mykotoka_com/.cloudflared/tcas-venue-map.yml tunnel run
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

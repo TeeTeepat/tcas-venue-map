@@ -21,8 +21,14 @@ Seat numbers are venue capacity, not seats left - TCAS70 allocates seats central
 ## Stack
 
 Next.js static export (`out/`), Tailwind, MapLibre GL + OpenFreeMap tiles (no API key).
-Hosted on Cloudflare Pages at https://tcas.teerapatk.com (Git integration: build
-`npm run build`, output `out`, Node from `.node-version`).
+Hosted on the VPS at https://tcas.teerapatk.com: nginx serves `/var/www/tcas` on
+127.0.0.1:8090, and a Cloudflare named tunnel (`cloudflared-tcas.service`, tunnel
+`tcas-venue-map`) publishes it with HTTPS. Configs are in `deploy/`.
+
+```bash
+scripts/deploy-vps.sh          # build + rsync out/ to /var/www/tcas
+scripts/deploy-vps.sh --pull   # git pull first
+```
 The home pin lives only in the browser's localStorage.
 
 ```bash

@@ -1,0 +1,6 @@
+tunnel: 682d409c-429a-499c-b49e-5b74d621d426
+credentials-file: /home/contact_mykotoka_com/.cloudflared/<tunnel-id>.json  (secret, not in repo)
+ingress:
+  - hostname: tcas.teerapatk.com
+    service: http://127.0.0.1:8090
+  - service: http_status:404

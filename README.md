@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# TCAS venue map (สนามสอบ TGAT/TPAT ใกล้บ้าน)
 
-## Getting Started
+Public map of every TCAS70 TGAT/TPAT2-5 exam venue. Pin your home (GPS or tap, with an
+emoji), venues sort by straight-line distance, filter by exam, and see seat capacity,
+air conditioning and BTS/MRT access per venue. Fully static: no server, no database.
 
-First, run the development server:
+## Data
+
+`npm run data` snapshots the official public JSON behind https://www.mytcas.com/venues:
+
+- `assets.mytcas.com/70/tgattpat/venues.json` - seats per venue per exam day
+- `assets.mytcas.com/70/tgattpat/venue-details.json` - map link, transit, aircon
+
+Exam days: 1 = 30 Jan 2027 (TGAT, TPAT3), 2 = 31 Jan (TPAT2, TPAT5), 3 = 1 Feb (TPAT4).
+Coordinates come from expanding each venue's Google Maps link (cached in
+`data/coords-cache.json`); venues without one are geocoded into `data/coords-manual.json`
+(precision `approx` = district centroid, flagged in the UI). Output: `src/data/venues.json`.
+
+Seat numbers are venue capacity, not seats left - TCAS70 allocates seats centrally.
+
+## Stack
+
+Next.js static export (`out/`), Tailwind, MapLibre GL + OpenFreeMap tiles (no API key).
+The home pin lives only in the browser's localStorage.
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm run data   # refresh snapshot from mytcas
+npm run build  # static site in out/
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Roadmap
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Google Sheet for extras (parking, food, rooms) + Google Form for student tips
+- Ads + PromptPay donation (move hosting to Cloudflare Pages, add privacy page + PDPA consent)

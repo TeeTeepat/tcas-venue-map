@@ -1,0 +1,9962 @@
+{
+ "tcasYear": 70,
+ "generatedAt": "2026-11-02T10:23:03.582Z",
+ "source": "https://www.mytcas.com/venues",
+ "days": {
+  "1": {
+   "date": "2027-01-30",
+   "exams": [
+    "TGAT",
+    "TPAT3"
+   ]
+  },
+  "2": {
+   "date": "2027-01-31",
+   "exams": [
+    "TPAT2",
+    "TPAT5"
+   ]
+  },
+  "3": {
+   "date": "2027-02-01",
+   "exams": [
+    "TPAT4"
+   ]
+  }
+ },
+ "venues": [
+  {
+   "id": "1001",
+   "name": "โรงเรียนเมืองกระบี่",
+   "province": "กระบี่",
+   "amphur": "เมืองกระบี่",
+   "universityId": "010",
+   "centre": "มหาวิทยาลัยสงขลานครินทร์",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1500,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1500,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5"
+   ],
+   "maxSeats": 1500,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "ไม่มีแอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/G21VHvc5voUrLCBx8",
+   "lat": 8.1073059,
+   "lng": 98.9141071,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "1002",
+   "name": "อำมาตย์พานิชนุกูล",
+   "province": "กระบี่",
+   "amphur": "เมืองกระบี่",
+   "universityId": "010",
+   "centre": "มหาวิทยาลัยสงขลานครินทร์",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1440,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1440,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 1440,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 1440,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์บางห้อง",
+   "mapUrl": "https://goo.gl/maps/X6Mnuj94NBpUgA2g8",
+   "lat": 8.0584396,
+   "lng": 98.9135713,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "0113",
+   "name": "จุฬาลงกรณ์มหาวิทยาลัย",
+   "province": "กรุงเทพมหานคร",
+   "amphur": "เขตปทุมวัน",
+   "universityId": "001",
+   "centre": "จุฬาลงกรณ์มหาวิทยาลัย",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 135,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TPAT4"
+   ],
+   "maxSeats": 135,
+   "transit": "รถไฟฟ้า",
+   "aircon": "แอร์ทุกห้อง",
+   "mapUrl": "https://maps.app.goo.gl/tLuWX2yXqnaoiHvbA",
+   "lat": 13.7385647,
+   "lng": 100.5321342,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "1405",
+   "name": "ชิโนรสวิทยาลัย",
+   "province": "กรุงเทพมหานคร",
+   "amphur": "เขตบางกอกน้อย",
+   "universityId": "014",
+   "centre": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 665,
+     "specialSeats": 35,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 665,
+     "specialSeats": 35,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5"
+   ],
+   "maxSeats": 700,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "ไม่มีแอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/Ce3KGDLzSiitaTFy6",
+   "lat": 13.7479762,
+   "lng": 100.478809,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "1607",
+   "name": "เตรียมอุดมศึกษาน้อมเกล้า",
+   "province": "กรุงเทพมหานคร",
+   "amphur": "เขตสะพานสูง",
+   "universityId": "016",
+   "centre": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1855,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3"
+   ],
+   "maxSeats": 1855,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์บางห้อง",
+   "mapUrl": "https://goo.gl/maps/ypLXKPvfr74mNhGE7",
+   "lat": 13.7863186,
+   "lng": 100.6910166,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "0903",
+   "name": "เตรียมอุดมศึกษาน้อมเกล้ากุนนที",
+   "province": "กรุงเทพมหานคร",
+   "amphur": "เขตดินแดง",
+   "universityId": "009",
+   "centre": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 900,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3"
+   ],
+   "maxSeats": 900,
+   "transit": "รถไฟฟ้า",
+   "aircon": "ไม่มีแอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/PhSDa2Cu4ahtbp3z6",
+   "lat": 13.7820115,
+   "lng": 100.5723088,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "1606",
+   "name": "เตรียมอุดมศึกษาพัฒนาการ",
+   "province": "กรุงเทพมหานคร",
+   "amphur": "เขตสวนหลวง",
+   "universityId": "016",
+   "centre": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 2450,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 2450,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5"
+   ],
+   "maxSeats": 2450,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/56ZJ9i533QabmUuq8",
+   "lat": 13.7291833,
+   "lng": 100.6465257,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "1603",
+   "name": "บดินทรเดชา (สิงห์ สิงหเสนี) ๒",
+   "province": "กรุงเทพมหานคร",
+   "amphur": "เขตบึงกุ่ม",
+   "universityId": "016",
+   "centre": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1645,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3"
+   ],
+   "maxSeats": 1645,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์บางห้อง",
+   "mapUrl": "https://goo.gl/maps/kUMNkpV7WaHcDxas7",
+   "lat": 13.8146229,
+   "lng": 100.6554374,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "1409",
+   "name": "บางปะกอกวิทยาคม",
+   "province": "กรุงเทพมหานคร",
+   "amphur": "เขตราษฎร์บูรณะ",
+   "universityId": "014",
+   "centre": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1590,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1590,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 1590,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 1590,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/a5X8EPJcJXo8vUvEA",
+   "lat": 13.6830631,
+   "lng": 100.495063,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "0907",
+   "name": "มัธยมวัดธาตุทอง",
+   "province": "กรุงเทพมหานคร",
+   "amphur": "เขตวัฒนา",
+   "universityId": "009",
+   "centre": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 750,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3"
+   ],
+   "maxSeats": 750,
+   "transit": "รถไฟฟ้า",
+   "aircon": "แอร์บางห้อง",
+   "mapUrl": "https://goo.gl/maps/hQCGymbkE3JFqyRA6",
+   "lat": 13.7206813,
+   "lng": 100.5860254,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "1401",
+   "name": "มัธยมวัดสิงห์",
+   "province": "กรุงเทพมหานคร",
+   "amphur": "เขตจอมทอง",
+   "universityId": "014",
+   "centre": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1645,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1645,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 1645,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 1645,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/oLgVH143TzE4XBXYA",
+   "lat": 13.6844554,
+   "lng": 100.4472671,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "1406",
+   "name": "รัตนโกสินทร์สมโภชบางขุนเทียน",
+   "province": "กรุงเทพมหานคร",
+   "amphur": "เขตบางขุนเทียน",
+   "universityId": "014",
+   "centre": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1810,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1810,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5"
+   ],
+   "maxSeats": 1810,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "ไม่มีแอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/3KNCp6vyFEmSZo3M8",
+   "lat": 13.6466608,
+   "lng": 100.4197123,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "0207",
+   "name": "ราชวินิตบางเขน",
+   "province": "กรุงเทพมหานคร",
+   "amphur": "เขตหลักสี่",
+   "universityId": "002",
+   "centre": "มหาวิทยาลัยเกษตรศาสตร์",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 870,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3"
+   ],
+   "maxSeats": 870,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์บางห้อง",
+   "mapUrl": "https://goo.gl/maps/1eT5GfHwg9tP8LSq6",
+   "lat": 13.8590397,
+   "lng": 100.5543885,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "0114",
+   "name": "ราชวินิต มัธยม",
+   "province": "กรุงเทพมหานคร",
+   "amphur": "เขตดุสิต",
+   "universityId": "001",
+   "centre": "จุฬาลงกรณ์มหาวิทยาลัย",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 900,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3"
+   ],
+   "maxSeats": 900,
+   "transit": null,
+   "aircon": null,
+   "mapUrl": null,
+   "lat": 13.7627466,
+   "lng": 100.5147182,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "1601",
+   "name": "โรงเรียนบางกะปิ",
+   "province": "กรุงเทพมหานคร",
+   "amphur": "เขตบางกะปิ",
+   "universityId": "016",
+   "centre": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1505,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3"
+   ],
+   "maxSeats": 1505,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "ไม่มีแอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/sfPpQuPpxTaz3Pzc9",
+   "lat": 13.7710088,
+   "lng": 100.6512694,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "1402",
+   "name": "โรงเรียนวัดราชโอรส",
+   "province": "กรุงเทพมหานคร",
+   "amphur": "เขตจอมทอง",
+   "universityId": "014",
+   "centre": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1680,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1680,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5"
+   ],
+   "maxSeats": 1680,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์บางห้อง",
+   "mapUrl": "https://goo.gl/maps/25WEK2rRT8LKCfkj8",
+   "lat": 13.7025113,
+   "lng": 100.4629106,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "0206",
+   "name": "ฤทธิยะวรรณาลัย",
+   "province": "กรุงเทพมหานคร",
+   "amphur": "เขตสายไหม",
+   "universityId": "002",
+   "centre": "มหาวิทยาลัยเกษตรศาสตร์",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1350,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3"
+   ],
+   "maxSeats": 1350,
+   "transit": "รถไฟฟ้า",
+   "aircon": "ไม่มีแอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/R722ssv1dDu9xjrB7",
+   "lat": 13.9131203,
+   "lng": 100.6253148,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "0906",
+   "name": "วชิรธรรมสาธิต",
+   "province": "กรุงเทพมหานคร",
+   "amphur": "เขตพระโขนง",
+   "universityId": "009",
+   "centre": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1200,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3"
+   ],
+   "maxSeats": 1200,
+   "transit": "รถไฟฟ้า",
+   "aircon": "แอร์บางห้อง",
+   "mapUrl": "https://goo.gl/maps/WpSJLTJ2z9GHJ3F47",
+   "lat": 13.6913692,
+   "lng": 100.6332168,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "1408",
+   "name": "วัดนวลนรดิศ",
+   "province": "กรุงเทพมหานคร",
+   "amphur": "เขตภาษีเจริญ",
+   "universityId": "014",
+   "centre": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 985,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 985,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 985,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 985,
+   "transit": "รถไฟฟ้า",
+   "aircon": "แอร์บางห้อง",
+   "mapUrl": "https://goo.gl/maps/EADai2D3oNSPbb8R9",
+   "lat": 13.7236972,
+   "lng": 100.4665217,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "0106",
+   "name": "วัดสุทธิวราราม",
+   "province": "กรุงเทพมหานคร",
+   "amphur": "เขตสาทร",
+   "universityId": "001",
+   "centre": "จุฬาลงกรณ์มหาวิทยาลัย",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1410,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3"
+   ],
+   "maxSeats": 1410,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์บางห้อง",
+   "mapUrl": "https://goo.gl/maps/1FSmX6Wcu44MrDYSA",
+   "lat": 13.7128486,
+   "lng": 100.5118571,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "1414",
+   "name": "วิทยาลัยเทคโนโลยีสยาม",
+   "province": "กรุงเทพมหานคร",
+   "amphur": "บางกอกใหญ่",
+   "universityId": "014",
+   "centre": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1645,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1645,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 1645,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 1645,
+   "transit": "รถไฟฟ้า",
+   "aircon": "แอร์ทุกห้อง",
+   "mapUrl": "https://maps.app.goo.gl/cLz4STwAsrqL7AvMA",
+   "lat": 13.737756,
+   "lng": 100.471287,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "1410",
+   "name": "วิทยาลัยพณิชยการเชตุพน",
+   "province": "กรุงเทพมหานคร",
+   "amphur": "เขตราษฎร์บูรณะ",
+   "universityId": "014",
+   "centre": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 680,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 680,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5"
+   ],
+   "maxSeats": 680,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/VxKVY4K4y2aioeJR6",
+   "lat": 13.6690472,
+   "lng": 100.5043499,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "0104",
+   "name": "ศรีอยุธยา ในพระอุปถัมภ์ฯ",
+   "province": "กรุงเทพมหานคร",
+   "amphur": "เขตราชเทวี",
+   "universityId": "001",
+   "centre": "จุฬาลงกรณ์มหาวิทยาลัย",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1890,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1890,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5"
+   ],
+   "maxSeats": 1890,
+   "transit": "รถไฟฟ้า",
+   "aircon": "แอร์บางห้อง",
+   "mapUrl": "https://goo.gl/maps/pbPB5ksV444Fam36A",
+   "lat": 13.7571777,
+   "lng": 100.5382148,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "1404",
+   "name": "ศึกษานารี",
+   "province": "กรุงเทพมหานคร",
+   "amphur": "เขตธนบุรี",
+   "universityId": "014",
+   "centre": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1440,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1440,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 1440,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 1440,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/cY4pbNVzXFUHSbJd6",
+   "lat": 13.7350322,
+   "lng": 100.4957212,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "1604",
+   "name": "เศรษฐบุตรบำเพ็ญ",
+   "province": "กรุงเทพมหานคร",
+   "amphur": "เขตมีนบุรี",
+   "universityId": "016",
+   "centre": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 2275,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 2275,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 2275,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 2275,
+   "transit": "รถไฟฟ้า",
+   "aircon": "ไม่มีแอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/h6UzihLsxr7b9TNeA",
+   "lat": 13.8134611,
+   "lng": 100.7141915,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "0109",
+   "name": "สตรีวัดมหาพฤฒาราม ในพระบรมราชินูปถัมภ์",
+   "province": "กรุงเทพมหานคร",
+   "amphur": "เขตบางรัก",
+   "universityId": "001",
+   "centre": "จุฬาลงกรณ์มหาวิทยาลัย",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 750,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3"
+   ],
+   "maxSeats": 750,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์ทุกห้อง",
+   "mapUrl": "https://maps.app.goo.gl/xAyac4YZVYpK1ExS9",
+   "lat": 13.7325339,
+   "lng": 100.5158403,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "0205",
+   "name": "สตรีวิทยา ๒",
+   "province": "กรุงเทพมหานคร",
+   "amphur": "เขตลาดพร้าว",
+   "universityId": "002",
+   "centre": "มหาวิทยาลัยเกษตรศาสตร์",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 750,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3"
+   ],
+   "maxSeats": 750,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "ไม่มีแอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/LgT9bvfPuVrCF4YR9",
+   "lat": 13.8254537,
+   "lng": 100.6172303,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "1605",
+   "name": "สตรีเศรษฐบุตรบำเพ็ญ",
+   "province": "กรุงเทพมหานคร",
+   "amphur": "เขตมีนบุรี",
+   "universityId": "016",
+   "centre": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1645,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3"
+   ],
+   "maxSeats": 1645,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์บางห้อง",
+   "mapUrl": "https://goo.gl/maps/4cA78tifokfg1Z4f6",
+   "lat": 13.8139528,
+   "lng": 100.733435,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "0111",
+   "name": "สันติราษฎร์วิทยาลัย",
+   "province": "กรุงเทพมหานคร",
+   "amphur": "เขตราชเทวี",
+   "universityId": "001",
+   "centre": "จุฬาลงกรณ์มหาวิทยาลัย",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1260,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3"
+   ],
+   "maxSeats": 1260,
+   "transit": "รถไฟฟ้า",
+   "aircon": "แอร์ทุกห้อง",
+   "mapUrl": "https://maps.app.goo.gl/Z355biQN4VLP66sk6",
+   "lat": 13.7580388,
+   "lng": 100.532167,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "0110",
+   "name": "สาธิตจุฬาลงกรณ์มหาวิทยาลัย (ฝ่ายมัธยม)",
+   "province": "กรุงเทพมหานคร",
+   "amphur": "เขตปทุมวัน",
+   "universityId": "001",
+   "centre": "จุฬาลงกรณ์มหาวิทยาลัย",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1080,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3"
+   ],
+   "maxSeats": 1080,
+   "transit": "รถไฟฟ้า",
+   "aircon": "แอร์ทุกห้อง",
+   "mapUrl": "https://maps.app.goo.gl/yaRV7y4Sadi1mEZ57",
+   "lat": 13.7366934,
+   "lng": 100.5272197,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "0201",
+   "name": "สารวิทยา",
+   "province": "กรุงเทพมหานคร",
+   "amphur": "เขตจตุจักร",
+   "universityId": "002",
+   "centre": "มหาวิทยาลัยเกษตรศาสตร์",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1860,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1860,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 1860,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 1860,
+   "transit": "รถไฟฟ้า",
+   "aircon": "แอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/dewKGej14zm9GUyG8",
+   "lat": 13.8511412,
+   "lng": 100.5835256,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "0214",
+   "name": "สีกัน (วัฒนานันท์อุปถัมภ์)",
+   "province": "กรุงเทพมหานคร",
+   "amphur": "เขตดอนเมือง",
+   "universityId": "002",
+   "centre": "มหาวิทยาลัยเกษตรศาสตร์",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1050,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1050,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 1050,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 1050,
+   "transit": "รถไฟฟ้า",
+   "aircon": "แอร์บางห้อง",
+   "mapUrl": "https://maps.app.goo.gl/ZWdq7hQHGeXPH6Rr5",
+   "lat": 13.9246574,
+   "lng": 100.5938803,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "0904",
+   "name": "สุรศักดิ์มนตรี",
+   "province": "กรุงเทพมหานคร",
+   "amphur": "เขตดินแดง",
+   "universityId": "009",
+   "centre": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1200,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1200,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5"
+   ],
+   "maxSeats": 1200,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์บางห้อง",
+   "mapUrl": "https://goo.gl/maps/t6dLnfBKzhUcNmfJ9",
+   "lat": 13.7760029,
+   "lng": 100.5559935,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "0202",
+   "name": "หอวัง",
+   "province": "กรุงเทพมหานคร",
+   "amphur": "เขตจตุจักร",
+   "universityId": "002",
+   "centre": "มหาวิทยาลัยเกษตรศาสตร์",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1680,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3"
+   ],
+   "maxSeats": 1680,
+   "transit": "รถไฟฟ้า",
+   "aircon": "แอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/EdXH6t7Tor945ggD9",
+   "lat": 13.8187604,
+   "lng": 100.5607702,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "0802",
+   "name": "กาญจนานุเคราะห์",
+   "province": "กาญจนบุรี",
+   "amphur": "เมืองกาญจนบุรี",
+   "universityId": "008",
+   "centre": "มหาวิทยาลัยศิลปากร",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 2220,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 2220,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 2220,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 2220,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/2R9tcSskNWv3RaaT9",
+   "lat": 14.0209143,
+   "lng": 99.5318035,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "0801",
+   "name": "วิสุทธรังษี",
+   "province": "กาญจนบุรี",
+   "amphur": "ท่าม่วง",
+   "universityId": "008",
+   "centre": "มหาวิทยาลัยศิลปากร",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1530,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3"
+   ],
+   "maxSeats": 1530,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/ErCi2yZjGq6BifWN9",
+   "lat": 13.9981237,
+   "lng": 99.5577313,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "2101",
+   "name": "กาฬสินธุ์พิทยาสรรพ์",
+   "province": "กาฬสินธุ์",
+   "amphur": "เมืองกาฬสินธุ์",
+   "universityId": "021",
+   "centre": "มหาวิทยาลัยมหาสารคาม",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1440,
+     "specialSeats": 30,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1440,
+     "specialSeats": 30,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 1440,
+     "specialSeats": 30,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 1470,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์บางห้อง",
+   "mapUrl": "https://goo.gl/maps/J5Gv5V65KafVhgPj6",
+   "lat": 16.4303631,
+   "lng": 103.5121753,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "2108",
+   "name": "อนุกูลนารี",
+   "province": "กาฬสินธุ์",
+   "amphur": "เมืองกาฬสินธุ์",
+   "universityId": "021",
+   "centre": "มหาวิทยาลัยมหาสารคาม",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1500,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1500,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5"
+   ],
+   "maxSeats": 1500,
+   "transit": null,
+   "aircon": null,
+   "mapUrl": null,
+   "lat": 16.5041015,
+   "lng": 103.5634523,
+   "coordPrecision": "approx"
+  },
+  {
+   "id": "2001",
+   "name": "กำแพงเพชรพิทยาคม",
+   "province": "กำแพงเพชร",
+   "amphur": "เมืองกำแพงเพชร",
+   "universityId": "020",
+   "centre": "มหาวิทยาลัยนเรศวร",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1800,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1800,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 1800,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 1800,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/bQzfspnr1cNUAhXj8",
+   "lat": 16.4895056,
+   "lng": 99.5203882,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "0321",
+   "name": "กัลยาณวัตร",
+   "province": "ขอนแก่น",
+   "amphur": "เมืองขอนแก่น",
+   "universityId": "003",
+   "centre": "มหาวิทยาลัยขอนแก่น",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1950,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1950,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5"
+   ],
+   "maxSeats": 1950,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "ไม่มีแอร์ทุกห้อง",
+   "mapUrl": "https://maps.app.goo.gl/mPjSAg7oJLrNktkJ9",
+   "lat": 16.4274456,
+   "lng": 102.8356822,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "0304",
+   "name": "แก่นนครวิทยาลัย",
+   "province": "ขอนแก่น",
+   "amphur": "เมืองขอนแก่น",
+   "universityId": "003",
+   "centre": "มหาวิทยาลัยขอนแก่น",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1740,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1740,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 1740,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 1740,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "ไม่มีแอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/ZbeqAA18gMAE332S8",
+   "lat": 16.4159037,
+   "lng": 102.8239006,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "0305",
+   "name": "ขอนแก่นวิทยายน",
+   "province": "ขอนแก่น",
+   "amphur": "เมืองขอนแก่น",
+   "universityId": "003",
+   "centre": "มหาวิทยาลัยขอนแก่น",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1740,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1740,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5"
+   ],
+   "maxSeats": 1740,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์บางห้อง",
+   "mapUrl": "https://goo.gl/maps/a6Tq5T9n29pqwXYJ7",
+   "lat": 16.4323719,
+   "lng": 102.8343321,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "0301",
+   "name": "ชุมแพศึกษา",
+   "province": "ขอนแก่น",
+   "amphur": "ชุมแพ",
+   "universityId": "003",
+   "centre": "มหาวิทยาลัยขอนแก่น",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1830,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1830,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 1830,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 1830,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์บางห้อง",
+   "mapUrl": "https://goo.gl/maps/PvhFzbLY4E46uqsn7",
+   "lat": 16.5412068,
+   "lng": 102.1132298,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "0322",
+   "name": "เทศบาลวัดกลาง",
+   "province": "ขอนแก่น",
+   "amphur": "เมืองขอนแก่น",
+   "universityId": "003",
+   "centre": "มหาวิทยาลัยขอนแก่น",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1500,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1500,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5"
+   ],
+   "maxSeats": 1500,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "ไม่มีแอร์ทุกห้อง",
+   "mapUrl": "https://maps.app.goo.gl/jNvj8zLNGNB298Np6",
+   "lat": 16.4132301,
+   "lng": 102.8314915,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "0302",
+   "name": "รร.เมืองพลพิทยาคม",
+   "province": "ขอนแก่น",
+   "amphur": "พล",
+   "universityId": "003",
+   "centre": "มหาวิทยาลัยขอนแก่น",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1230,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1230,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 1230,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 1230,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "ไม่มีแอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/xYK6tTWyvAkgMrsX8",
+   "lat": 15.8087493,
+   "lng": 102.5883485,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "1901",
+   "name": "เบญจมราชูทิศ จังหวัดจันทบุรี",
+   "province": "จันทบุรี",
+   "amphur": "เมืองจันทบุรี",
+   "universityId": "019",
+   "centre": "มหาวิทยาลัยบูรพา",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1435,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1435,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 1435,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 1435,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/ucByH9Em4PTDtq46A",
+   "lat": 12.612407,
+   "lng": 102.1118202,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "1902",
+   "name": "ศรียานุสรณ์",
+   "province": "จันทบุรี",
+   "amphur": "เมืองจันทบุรี",
+   "universityId": "019",
+   "centre": "มหาวิทยาลัยบูรพา",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1020,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3"
+   ],
+   "maxSeats": 1020,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/JjUAKZdWHpneGthq5",
+   "lat": 12.6127428,
+   "lng": 102.1102154,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "1903",
+   "name": "ดัดดรุณี",
+   "province": "ฉะเชิงเทรา",
+   "amphur": "เมืองฉะเชิงเทรา",
+   "universityId": "019",
+   "centre": "มหาวิทยาลัยบูรพา",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 930,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3"
+   ],
+   "maxSeats": 930,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "ไม่มีแอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/WWZec358mFbkw9fE7",
+   "lat": 13.6898566,
+   "lng": 101.0754298,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "1904",
+   "name": "เบญจมราชรังสฤษฎิ์",
+   "province": "ฉะเชิงเทรา",
+   "amphur": "เมืองฉะเชิงเทรา",
+   "universityId": "019",
+   "centre": "มหาวิทยาลัยบูรพา",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1320,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1800,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 1800,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 1800,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/omttRtrjrkofW3fm9",
+   "lat": 13.6917934,
+   "lng": 101.0764529,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "1925",
+   "name": "วิทยาลัยอาชีวศึกษาฉะเชิงเทรา",
+   "province": "ฉะเชิงเทรา",
+   "amphur": "เมืองฉะเชิงเทรา",
+   "universityId": "019",
+   "centre": "มหาวิทยาลัยบูรพา",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 690,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3"
+   ],
+   "maxSeats": 690,
+   "transit": null,
+   "aircon": null,
+   "mapUrl": null,
+   "lat": 13.7176206,
+   "lng": 101.0028822,
+   "coordPrecision": "approx"
+  },
+  {
+   "id": "1907",
+   "name": "ชลกันยานุกูล",
+   "province": "ชลบุรี",
+   "amphur": "เมืองชลบุรี",
+   "universityId": "019",
+   "centre": "มหาวิทยาลัยบูรพา",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1925,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3"
+   ],
+   "maxSeats": 1925,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์บางห้อง",
+   "mapUrl": "https://goo.gl/maps/TShQjnAzza4iSG7v8",
+   "lat": 13.361357,
+   "lng": 100.9815902,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "1908",
+   "name": "ชลราษฎรอำรุง",
+   "province": "ชลบุรี",
+   "amphur": "เมืองชลบุรี",
+   "universityId": "019",
+   "centre": "มหาวิทยาลัยบูรพา",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 2100,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1400,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 2100,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 2100,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "ไม่มีแอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/Zp24VC1TgLVgRi9s9",
+   "lat": 13.3501992,
+   "lng": 100.9783804,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "1922",
+   "name": "บ้านสวน(จั่นอนุสรณ์)",
+   "province": "ชลบุรี",
+   "amphur": "เมืองชลบุรี",
+   "universityId": "019",
+   "centre": "มหาวิทยาลัยบูรพา",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1365,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3"
+   ],
+   "maxSeats": 1365,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "ไม่มีแอร์ทุกห้อง",
+   "mapUrl": "https://maps.app.goo.gl/j9dQ9XbA9me3e5pB9",
+   "lat": 13.3544388,
+   "lng": 101.0029317,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "1906",
+   "name": "พนัสพิทยาคาร",
+   "province": "ชลบุรี",
+   "amphur": "พนัสนิคม",
+   "universityId": "019",
+   "centre": "มหาวิทยาลัยบูรพา",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1925,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3"
+   ],
+   "maxSeats": 1925,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์บางห้อง",
+   "mapUrl": "https://goo.gl/maps/Xfz7jRMBZU1qEzcr7",
+   "lat": 13.4502185,
+   "lng": 101.1706429,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "1905",
+   "name": "โพธิสัมพันธ์พิทยาคาร",
+   "province": "ชลบุรี",
+   "amphur": "บางละมุง",
+   "universityId": "019",
+   "centre": "มหาวิทยาลัยบูรพา",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1575,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3"
+   ],
+   "maxSeats": 1575,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "ไม่มีแอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/sm8TLYGcUYJBmQk57",
+   "lat": 12.9625235,
+   "lng": 100.8940843,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "1910",
+   "name": "โรงเรียนศรีราชา",
+   "province": "ชลบุรี",
+   "amphur": "ศรีราชา",
+   "universityId": "019",
+   "centre": "มหาวิทยาลัยบูรพา",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1715,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3"
+   ],
+   "maxSeats": 1715,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "ไม่มีแอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/YBaHwsQj6rrPxj3H6",
+   "lat": 13.177017,
+   "lng": 100.9291495,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "1909",
+   "name": "สาธิต พิบูลบำเพ็ญ มหาวิทยาลัยบูรพา",
+   "province": "ชลบุรี",
+   "amphur": "เมืองชลบุรี",
+   "universityId": "019",
+   "centre": "มหาวิทยาลัยบูรพา",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1225,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1225,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5"
+   ],
+   "maxSeats": 1225,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/TGBfaggLB5HSb9B49",
+   "lat": 13.2774113,
+   "lng": 100.921949,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "2002",
+   "name": "ชัยนาทพิทยาคม",
+   "province": "ชัยนาท",
+   "amphur": "เมืองชัยนาท",
+   "universityId": "020",
+   "centre": "มหาวิทยาลัยนเรศวร",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1470,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1470,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 1470,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 1470,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "ไม่มีแอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/LkoSnZ7dpAzFCB156",
+   "lat": 15.18892,
+   "lng": 100.1246132,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "1715",
+   "name": "ชัยภูมิภักดีชุมพล",
+   "province": "ชัยภูมิ",
+   "amphur": "เมืองชัยภูมิ",
+   "universityId": "017",
+   "centre": "มหาวิทยาลัยเทคโนโลยีสุรนารี",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 2205,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 2205,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 2205,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 2205,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์บางห้อง",
+   "mapUrl": "https://maps.app.goo.gl/95SFkXQDMHr4agbf6",
+   "lat": 15.8057897,
+   "lng": 102.0327966,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "2301",
+   "name": "ศรียาภัย",
+   "province": "ชุมพร",
+   "amphur": "เมืองชุมพร",
+   "universityId": "023",
+   "centre": "มหาวิทยาลัยวลัยลักษณ์",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 2905,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 2905,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 2905,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 2905,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/my5sFQDnn6HAbzpK8",
+   "lat": 10.4967136,
+   "lng": 99.1837824,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "0401",
+   "name": "ดำรงราษฎร์สงเคราะห์",
+   "province": "เชียงราย",
+   "amphur": "เมืองเชียงราย",
+   "universityId": "004",
+   "centre": "มหาวิทยาลัยเชียงใหม่",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 2520,
+     "specialSeats": 30,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3"
+   ],
+   "maxSeats": 2550,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": null,
+   "mapUrl": "https://goo.gl/maps/wUhEVo1Ar4UWTZHB8",
+   "lat": 19.9110091,
+   "lng": 99.8340035,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "0402",
+   "name": "สามัคคีวิทยาคม",
+   "province": "เชียงราย",
+   "amphur": "เมืองเชียงราย",
+   "universityId": "004",
+   "centre": "มหาวิทยาลัยเชียงใหม่",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 2250,
+     "specialSeats": 30,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 2250,
+     "specialSeats": 30,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 2250,
+     "specialSeats": 30,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 2280,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/MZbvdmPaFCmNh4Ex6",
+   "lat": 19.9067195,
+   "lng": 99.8268639,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "0403",
+   "name": "กาวิละวิทยาลัย",
+   "province": "เชียงใหม่",
+   "amphur": "เมืองเชียงใหม่",
+   "universityId": "004",
+   "centre": "มหาวิทยาลัยเชียงใหม่",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 870,
+     "specialSeats": 30,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3"
+   ],
+   "maxSeats": 900,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "ไม่มีแอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/2unkbYp2tJTa2G7t8",
+   "lat": 18.7648795,
+   "lng": 99.0239893,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "0416",
+   "name": "นวมินทราชูทิศ พายัพ",
+   "province": "เชียงใหม่",
+   "amphur": "แม่ริม",
+   "universityId": "004",
+   "centre": "มหาวิทยาลัยเชียงใหม่",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1650,
+     "specialSeats": 30,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1650,
+     "specialSeats": 30,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 1650,
+     "specialSeats": 30,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 1680,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์บางห้อง",
+   "mapUrl": "https://goo.gl/maps/pECJHKEpnwDWPq4J7",
+   "lat": 18.8423124,
+   "lng": 98.963776,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "0404",
+   "name": "มงฟอร์ตวิทยาลัย",
+   "province": "เชียงใหม่",
+   "amphur": "เมืองเชียงใหม่",
+   "universityId": "004",
+   "centre": "มหาวิทยาลัยเชียงใหม่",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 2190,
+     "specialSeats": 30,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3"
+   ],
+   "maxSeats": 2220,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/ViKQ79gcbs43HfSA8",
+   "lat": 18.7651542,
+   "lng": 99.0205067,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "0405",
+   "name": "ยุพราชวิทยาลัย",
+   "province": "เชียงใหม่",
+   "amphur": "เมืองเชียงใหม่",
+   "universityId": "004",
+   "centre": "มหาวิทยาลัยเชียงใหม่",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 2190,
+     "specialSeats": 30,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 2190,
+     "specialSeats": 30,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5"
+   ],
+   "maxSeats": 2220,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์บางห้อง",
+   "mapUrl": "https://goo.gl/maps/CzpzP9CJQwYLgBAZA",
+   "lat": 18.7909072,
+   "lng": 98.9880286,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "0406",
+   "name": "วัฒโนทัยพายัพ",
+   "province": "เชียงใหม่",
+   "amphur": "เมืองเชียงใหม่",
+   "universityId": "004",
+   "centre": "มหาวิทยาลัยเชียงใหม่",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1740,
+     "specialSeats": 30,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3"
+   ],
+   "maxSeats": 1770,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "ไม่มีแอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/xX4mAQQ1QmSvyMDD6",
+   "lat": 18.7850938,
+   "lng": 98.9768383,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "0407",
+   "name": "วารีเชียงใหม่",
+   "province": "เชียงใหม่",
+   "amphur": "เมืองเชียงใหม่",
+   "universityId": "004",
+   "centre": "มหาวิทยาลัยเชียงใหม่",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1650,
+     "specialSeats": 30,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3"
+   ],
+   "maxSeats": 1680,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/tFk1YcvVrp4sAghY9",
+   "lat": 18.7583461,
+   "lng": 99.0154215,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "0426",
+   "name": "หอพระ",
+   "province": "เชียงใหม่",
+   "amphur": "เมืองเชียงใหม่",
+   "universityId": "004",
+   "centre": "มหาวิทยาลัยเชียงใหม่",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 720,
+     "specialSeats": 30,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3"
+   ],
+   "maxSeats": 750,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "ไม่มีแอร์ทุกห้อง",
+   "mapUrl": "https://maps.app.goo.gl/ASJ54LWUyuWrEmEB6",
+   "lat": 18.7917575,
+   "lng": 98.9804763,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "1003",
+   "name": "ตรังคริสเตียนศึกษา",
+   "province": "ตรัง",
+   "amphur": "เมืองตรัง",
+   "universityId": "010",
+   "centre": "มหาวิทยาลัยสงขลานครินทร์",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 900,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 900,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5"
+   ],
+   "maxSeats": 900,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/RZ1WHHoAk89UfzUY9",
+   "lat": 7.5604126,
+   "lng": 99.5969201,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "1004",
+   "name": "วิเชียรมาตุ",
+   "province": "ตรัง",
+   "amphur": "เมืองตรัง",
+   "universityId": "010",
+   "centre": "มหาวิทยาลัยสงขลานครินทร์",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1920,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1920,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5"
+   ],
+   "maxSeats": 1920,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์บางห้อง",
+   "mapUrl": "https://goo.gl/maps/wpFzN4Uu3HQpekxt9",
+   "lat": 7.5042166,
+   "lng": 99.6300313,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "1005",
+   "name": "สภาราชินี จังหวัดตรัง",
+   "province": "ตรัง",
+   "amphur": "เมืองตรัง",
+   "universityId": "010",
+   "centre": "มหาวิทยาลัยสงขลานครินทร์",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1320,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1320,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 1320,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 1320,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์บางห้อง",
+   "mapUrl": "https://goo.gl/maps/Fqs7NWKEPQp6ct9g7",
+   "lat": 7.5537034,
+   "lng": 99.6099096,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "1911",
+   "name": "ตราษตระการคุณ",
+   "province": "ตราด",
+   "amphur": "เมืองตราด",
+   "universityId": "019",
+   "centre": "มหาวิทยาลัยบูรพา",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 990,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 990,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 990,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 990,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "ไม่มีแอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/wr86mHW9FWPAMosD6",
+   "lat": 12.237032,
+   "lng": 102.5258623,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "2003",
+   "name": "ตากพิทยาคม",
+   "province": "ตาก",
+   "amphur": "เมืองตาก",
+   "universityId": "020",
+   "centre": "มหาวิทยาลัยนเรศวร",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1260,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1260,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 1260,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 1260,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/aFt1Ho9PhFPDaoHm8",
+   "lat": 16.8709791,
+   "lng": 99.1302294,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "2004",
+   "name": "สรรพวิทยาคม",
+   "province": "ตาก",
+   "amphur": "แม่สอด",
+   "universityId": "020",
+   "centre": "มหาวิทยาลัยนเรศวร",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1500,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1500,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 1500,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 1500,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์บางห้อง",
+   "mapUrl": "https://goo.gl/maps/dS79GdEtXVt8GJJG7",
+   "lat": 16.7132059,
+   "lng": 98.5730804,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "0909",
+   "name": "นครนายกวิทยาคม",
+   "province": "นครนายก",
+   "amphur": "เมืองนครนายก",
+   "universityId": "009",
+   "centre": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 2400,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 2400,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 2400,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 2400,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "ไม่มีแอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/Knu3DHkEtNGwNyva6",
+   "lat": 14.2011671,
+   "lng": 101.2177072,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "0804",
+   "name": "พระปฐมวิทยาลัย",
+   "province": "นครปฐม",
+   "amphur": "เมืองนครปฐม",
+   "universityId": "008",
+   "centre": "มหาวิทยาลัยศิลปากร",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1500,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1500,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 1500,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 1500,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "ไม่มีแอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/T2NEgx6WrEvxgG2T6",
+   "lat": 13.8200983,
+   "lng": 100.0754896,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "0803",
+   "name": "รัตนโกสินทร์สมโภชบวรนิเวศศาลายา ในพระสังฆราชูปถัมภ์",
+   "province": "นครปฐม",
+   "amphur": "พุทธมณฑล",
+   "universityId": "008",
+   "centre": "มหาวิทยาลัยศิลปากร",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1140,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3"
+   ],
+   "maxSeats": 1140,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "ไม่มีแอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/H1cB2Jk88vPJVLqc9",
+   "lat": 13.8005508,
+   "lng": 100.2995286,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "0805",
+   "name": "ราชินีบูรณะ",
+   "province": "นครปฐม",
+   "amphur": "เมืองนครปฐม",
+   "universityId": "008",
+   "centre": "มหาวิทยาลัยศิลปากร",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1290,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1290,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5"
+   ],
+   "maxSeats": 1290,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/BRzTsoQ1zGmD9QDZ9",
+   "lat": 13.8176543,
+   "lng": 100.0627984,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "0807",
+   "name": "วัดไร่ขิงวิทยา",
+   "province": "นครปฐม",
+   "amphur": "สามพราน",
+   "universityId": "008",
+   "centre": "มหาวิทยาลัยศิลปากร",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1140,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1140,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 1140,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 1140,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "ไม่มีแอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/jRorwMp2dUvdh2Yh9",
+   "lat": 13.7396588,
+   "lng": 100.2579008,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "0819",
+   "name": "วัดห้วยจรเข้วิทยาคม",
+   "province": "นครปฐม",
+   "amphur": "เมืองนครปฐม",
+   "universityId": "008",
+   "centre": "มหาวิทยาลัยศิลปากร",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1050,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3"
+   ],
+   "maxSeats": 1050,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "ไม่มีแอร์ทุกห้อง",
+   "mapUrl": "https://maps.app.goo.gl/AA54ke5emJumptgX7",
+   "lat": 13.8227974,
+   "lng": 100.0724335,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "0806",
+   "name": "ศรีวิชัยวิทยา",
+   "province": "นครปฐม",
+   "amphur": "เมืองนครปฐม",
+   "universityId": "008",
+   "centre": "มหาวิทยาลัยศิลปากร",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1230,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3"
+   ],
+   "maxSeats": 1230,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "ไม่มีแอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/7kgJEiCwt3Zdvtpq6",
+   "lat": 13.838977,
+   "lng": 100.0302366,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "2606",
+   "name": "ปิยะมหาราชาลัย",
+   "province": "นครพนม",
+   "amphur": "เมืองนครพนม",
+   "universityId": "026",
+   "centre": "มหาวิทยาลัยนครพนม",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1020,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1020,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 1020,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 1020,
+   "transit": null,
+   "aircon": null,
+   "mapUrl": null,
+   "lat": 17.4027913,
+   "lng": 104.7792025,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "2691",
+   "name": "มหาวิทยาลัยนครพนม",
+   "province": "นครพนม",
+   "amphur": "เมืองนครพนม",
+   "universityId": "026",
+   "centre": "มหาวิทยาลัยนครพนม",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 630,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 630,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 630,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 630,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/jqSp6VvMa7kn7nCx6",
+   "lat": 17.4110979,
+   "lng": 104.7790574,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "1703",
+   "name": "บุญวัฒนา",
+   "province": "นครราชสีมา",
+   "amphur": "เมืองนครราชสีมา",
+   "universityId": "017",
+   "centre": "มหาวิทยาลัยเทคโนโลยีสุรนารี",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1575,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3"
+   ],
+   "maxSeats": 1575,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "ไม่มีแอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/G5hi23Koh3CWKgix9",
+   "lat": 14.9529259,
+   "lng": 102.1175146,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "1704",
+   "name": "ราชสีมาวิทยาลัย",
+   "province": "นครราชสีมา",
+   "amphur": "เมืองนครราชสีมา",
+   "universityId": "017",
+   "centre": "มหาวิทยาลัยเทคโนโลยีสุรนารี",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 2660,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 2660,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5"
+   ],
+   "maxSeats": 2660,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์บางห้อง",
+   "mapUrl": "https://goo.gl/maps/gzB9SWALwHnrrhiH8",
+   "lat": 14.952092,
+   "lng": 102.0333741,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "1705",
+   "name": "สุรธรรมพิทักษ์",
+   "province": "นครราชสีมา",
+   "amphur": "เมืองนครราชสีมา",
+   "universityId": "017",
+   "centre": "มหาวิทยาลัยเทคโนโลยีสุรนารี",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 2100,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3"
+   ],
+   "maxSeats": 2100,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์บางห้อง",
+   "mapUrl": "https://goo.gl/maps/XRQzpJUQ3mj5DFUs8",
+   "lat": 14.9102063,
+   "lng": 102.0705421,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "1717",
+   "name": "สุรนารีวิทยา",
+   "province": "นครราชสีมา",
+   "amphur": "เมืองนครราชสีมา",
+   "universityId": "017",
+   "centre": "มหาวิทยาลัยเทคโนโลยีสุรนารี",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 2695,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 2695,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 2695,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 2695,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์บางห้อง",
+   "mapUrl": "https://maps.app.goo.gl/yQqBKW2KNgoEWXY28",
+   "lat": 14.9804948,
+   "lng": 102.1024892,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "2302",
+   "name": "มหาวิทยาลัยวลัยลักษณ์",
+   "province": "นครศรีธรรมราช",
+   "amphur": "ท่าศาลา",
+   "universityId": "023",
+   "centre": "มหาวิทยาลัยวลัยลักษณ์",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 4805,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 4805,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 4805,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 4805,
+   "transit": null,
+   "aircon": null,
+   "mapUrl": "https://goo.gl/maps/JiheoXwnnpf6gymq5",
+   "lat": 8.6415683,
+   "lng": 99.8973624,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "2005",
+   "name": "ตาคลีประชาสรรค์",
+   "province": "นครสวรรค์",
+   "amphur": "ตาคลี",
+   "universityId": "020",
+   "centre": "มหาวิทยาลัยนเรศวร",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 990,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3"
+   ],
+   "maxSeats": 990,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์บางห้อง",
+   "mapUrl": "https://goo.gl/maps/XRwBcnQhemWm1ScX7",
+   "lat": 15.2708748,
+   "lng": 100.3616296,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "2007",
+   "name": "นวมินทราชูทิศ มัชฌิม",
+   "province": "นครสวรรค์",
+   "amphur": "เมืองนครสวรรค์",
+   "universityId": "020",
+   "centre": "มหาวิทยาลัยนเรศวร",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1320,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3"
+   ],
+   "maxSeats": 1320,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์บางห้อง",
+   "mapUrl": "https://goo.gl/maps/UTj9VLDFdaQvc4jq7",
+   "lat": 15.7224919,
+   "lng": 100.1189074,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "2006",
+   "name": "โรงเรียนนครสวรรค์",
+   "province": "นครสวรรค์",
+   "amphur": "เมืองนครสวรรค์",
+   "universityId": "020",
+   "centre": "มหาวิทยาลัยนเรศวร",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 2070,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 2070,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 2070,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 2070,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/isZ3MjhsmTABEHGv8",
+   "lat": 15.7120605,
+   "lng": 100.1332456,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "2018",
+   "name": "สตรีนครสวรรค์",
+   "province": "นครสวรรค์",
+   "amphur": "เมืองนครสวรรค์",
+   "universityId": "020",
+   "centre": "มหาวิทยาลัยนเรศวร",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1770,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1770,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5"
+   ],
+   "maxSeats": 1770,
+   "transit": null,
+   "aircon": null,
+   "mapUrl": null,
+   "lat": 15.6952181,
+   "lng": 100.1242819,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "0208",
+   "name": "เทพศิรินทร์ นนทบุรี",
+   "province": "นนทบุรี",
+   "amphur": "บางกรวย",
+   "universityId": "002",
+   "centre": "มหาวิทยาลัยเกษตรศาสตร์",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1440,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1440,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5"
+   ],
+   "maxSeats": 1440,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์บางห้อง",
+   "mapUrl": "https://g.page/DSNSchool?share",
+   "lat": 13.8136697,
+   "lng": 100.4135822,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "0211",
+   "name": "เบญจมราชานุสรณ์",
+   "province": "นนทบุรี",
+   "amphur": "เมืองนนทบุรี",
+   "universityId": "002",
+   "centre": "มหาวิทยาลัยเกษตรศาสตร์",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 690,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3"
+   ],
+   "maxSeats": 690,
+   "transit": "รถไฟฟ้า",
+   "aircon": "แอร์บางห้อง",
+   "mapUrl": "https://goo.gl/maps/kwnxqzYkPun7VcFU7",
+   "lat": 13.8806757,
+   "lng": 100.5311396,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "0209",
+   "name": "โรงเรียนปากเกร็ด",
+   "province": "นนทบุรี",
+   "amphur": "ปากเกร็ด",
+   "universityId": "002",
+   "centre": "มหาวิทยาลัยเกษตรศาสตร์",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1500,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1500,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 1500,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 1500,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "ไม่มีแอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/BzuUpiNjjsvTn8sN9",
+   "lat": 13.9113867,
+   "lng": 100.4967731,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "0212",
+   "name": "วัดเขมาภิรตาราม",
+   "province": "นนทบุรี",
+   "amphur": "เมืองนนทบุรี",
+   "universityId": "002",
+   "centre": "มหาวิทยาลัยเกษตรศาสตร์",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1500,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1500,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5"
+   ],
+   "maxSeats": 1500,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "ไม่มีแอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/DWQUerPVgfCQqbNH6",
+   "lat": 13.8230459,
+   "lng": 100.5031515,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "0213",
+   "name": "สตรีนนทบุรี",
+   "province": "นนทบุรี",
+   "amphur": "เมืองนนทบุรี",
+   "universityId": "002",
+   "centre": "มหาวิทยาลัยเกษตรศาสตร์",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 960,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3"
+   ],
+   "maxSeats": 960,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์บางห้อง",
+   "mapUrl": "https://goo.gl/maps/njVaBnR4UnYnEbHD7",
+   "lat": 13.8217221,
+   "lng": 100.5053559,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "0210",
+   "name": "สวนกุหลาบวิทยาลัย นนทบุรี",
+   "province": "นนทบุรี",
+   "amphur": "ปากเกร็ด",
+   "universityId": "002",
+   "centre": "มหาวิทยาลัยเกษตรศาสตร์",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1350,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3"
+   ],
+   "maxSeats": 1350,
+   "transit": "รถไฟฟ้า",
+   "aircon": "แอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/VhH5M6CQkrTUCWyX7",
+   "lat": 13.9096489,
+   "lng": 100.5114436,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "2501",
+   "name": "มหาวิทยาลัยนราธิวาสราชนครินทร์",
+   "province": "นราธิวาส",
+   "amphur": "เมืองนราธิวาส",
+   "universityId": "025",
+   "centre": "มหาวิทยาลัยนราธิวาสราชนครินทร์",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 2820,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 2820,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 2820,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 2820,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/HfYMwpRrbkDMVKbH8",
+   "lat": 6.4398908,
+   "lng": 101.7873625,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "0408",
+   "name": "สตรีศรีน่าน",
+   "province": "น่าน",
+   "amphur": "เมืองน่าน",
+   "universityId": "004",
+   "centre": "มหาวิทยาลัยเชียงใหม่",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 2070,
+     "specialSeats": 30,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 2070,
+     "specialSeats": 30,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 2070,
+     "specialSeats": 30,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 2100,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/cc3hxQcsF79Pds9a8",
+   "lat": 18.777268,
+   "lng": 100.7803361,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "0307",
+   "name": "โรงเรียนบึงกาฬ",
+   "province": "บึงกาฬ",
+   "amphur": "เมืองบึงกาฬ",
+   "universityId": "003",
+   "centre": "มหาวิทยาลัยขอนแก่น",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1200,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1200,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 1200,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 1200,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "ไม่มีแอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/WDjYSfRfEk9gXdtQ7",
+   "lat": 18.3628143,
+   "lng": 103.6482865,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "1708",
+   "name": "บัวหลวงวิทยาคม",
+   "province": "บุรีรัมย์",
+   "amphur": "เมืองบุรีรัมย์",
+   "universityId": "017",
+   "centre": "มหาวิทยาลัยเทคโนโลยีสุรนารี",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1190,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3"
+   ],
+   "maxSeats": 1190,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "ไม่มีแอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/LhtpZ9gzbdAbeQ7U6",
+   "lat": 14.944861,
+   "lng": 103.0462172,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "1709",
+   "name": "บุรีรัมย์พิทยาคม",
+   "province": "บุรีรัมย์",
+   "amphur": "เมืองบุรีรัมย์",
+   "universityId": "017",
+   "centre": "มหาวิทยาลัยเทคโนโลยีสุรนารี",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 2625,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 2625,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 2625,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 2625,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์บางห้อง",
+   "mapUrl": "https://goo.gl/maps/sy9xzs7LnSf8bud38",
+   "lat": 15.0023557,
+   "lng": 103.1029545,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "0503",
+   "name": "คณะราษฎร์บำรุงปทุมธานี",
+   "province": "ปทุมธานี",
+   "amphur": "เมืองปทุมธานี",
+   "universityId": "005",
+   "centre": "มหาวิทยาลัยธรรมศาสตร์ ศูนย์รังสิต",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1200,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1200,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5"
+   ],
+   "maxSeats": 1200,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "ไม่มีแอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/cwxJUfDdtLgQFNAF6",
+   "lat": 14.0196916,
+   "lng": 100.5381325,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "0504",
+   "name": "ธัญบุรี",
+   "province": "ปทุมธานี",
+   "amphur": "ธัญบุรี",
+   "universityId": "005",
+   "centre": "มหาวิทยาลัยธรรมศาสตร์ ศูนย์รังสิต",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1200,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1200,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 1200,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 1200,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "ไม่มีแอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/ioSUaNn61s21i1ab8",
+   "lat": 13.9738694,
+   "lng": 100.6213946,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "0513",
+   "name": "ธัญรัตน์",
+   "province": "ปทุมธานี",
+   "amphur": "ธัญบุรี",
+   "universityId": "005",
+   "centre": "มหาวิทยาลัยธรรมศาสตร์ ศูนย์รังสิต",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1410,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1410,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5"
+   ],
+   "maxSeats": 1410,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "ไม่มีแอร์ทุกห้อง",
+   "mapUrl": "https://maps.app.goo.gl/kcCtXLs6WvcKcGKK7",
+   "lat": 14.0223883,
+   "lng": 100.7355345,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "0502",
+   "name": "ปทุมวิไล",
+   "province": "ปทุมธานี",
+   "amphur": "เมืองปทุมธานี",
+   "universityId": "005",
+   "centre": "มหาวิทยาลัยธรรมศาสตร์ ศูนย์รังสิต",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1230,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1230,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 1230,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 1230,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "ไม่มีแอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/b7HUpnjVNeuHoddQ8",
+   "lat": 14.019035,
+   "lng": 100.5270165,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "0808",
+   "name": "ประจวบวิทยาลัย",
+   "province": "ประจวบคีรีขันธ์",
+   "amphur": "เมืองประจวบคีรีขันธ์",
+   "universityId": "008",
+   "centre": "มหาวิทยาลัยศิลปากร",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1560,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1560,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 1560,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 1560,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "ไม่มีแอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/QnhUmy9MkjKoZcqR8",
+   "lat": 11.7994667,
+   "lng": 99.7978937,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "0820",
+   "name": "หัวหิน",
+   "province": "ประจวบคีรีขันธ์",
+   "amphur": "หัวหิน",
+   "universityId": "008",
+   "centre": "มหาวิทยาลัยศิลปากร",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 720,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3"
+   ],
+   "maxSeats": 720,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "ไม่มีแอร์ทุกห้อง",
+   "mapUrl": "https://maps.app.goo.gl/VhskVfKfcKLbBoC5A",
+   "lat": 12.5738492,
+   "lng": 99.9479845,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "1912",
+   "name": "กบินทร์วิทยา",
+   "province": "ปราจีนบุรี",
+   "amphur": "กบินทร์บุรี",
+   "universityId": "019",
+   "centre": "มหาวิทยาลัยบูรพา",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1020,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3"
+   ],
+   "maxSeats": 1020,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "ไม่มีแอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/7SjPBzh7LSTtLFTXA",
+   "lat": 14.0043517,
+   "lng": 101.7071775,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "1913",
+   "name": "ปราจิณราษฎรอำรุง",
+   "province": "ปราจีนบุรี",
+   "amphur": "เมืองปราจีนบุรี",
+   "universityId": "019",
+   "centre": "มหาวิทยาลัยบูรพา",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1090,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1300,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 1300,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 1300,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "ไม่มีแอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/oWua3pf1kM8oWBZ28",
+   "lat": 14.051163,
+   "lng": 101.3734085,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "1914",
+   "name": "ปราจีนกัลยาณี",
+   "province": "ปราจีนบุรี",
+   "amphur": "เมืองปราจีนบุรี",
+   "universityId": "019",
+   "centre": "มหาวิทยาลัยบูรพา",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1120,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3"
+   ],
+   "maxSeats": 1120,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "ไม่มีแอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/SD6fZ3xMuyXk1nNw7",
+   "lat": 14.0507947,
+   "lng": 101.3711457,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "1006",
+   "name": "เดชะปัตตนยานุกูล",
+   "province": "ปัตตานี",
+   "amphur": "เมืองปัตตานี",
+   "universityId": "010",
+   "centre": "มหาวิทยาลัยสงขลานครินทร์",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1830,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1830,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 1830,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 1830,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "ไม่มีแอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/pD4Fm94nNFGJWMaD6",
+   "lat": 6.8676169,
+   "lng": 101.2452961,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "1007",
+   "name": "เบญจมราชูทิศ จังหวัดปัตตานี",
+   "province": "ปัตตานี",
+   "amphur": "เมืองปัตตานี",
+   "universityId": "010",
+   "centre": "มหาวิทยาลัยสงขลานครินทร์",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1230,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1230,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5"
+   ],
+   "maxSeats": 1230,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์บางห้อง",
+   "mapUrl": "https://goo.gl/maps/agMy8BqGBLcgf3N36",
+   "lat": 6.8690829,
+   "lng": 101.2516485,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "1008",
+   "name": "สาธิตมหาวิทยาลัยสงขลานครินทร์",
+   "province": "ปัตตานี",
+   "amphur": "เมืองปัตตานี",
+   "universityId": "010",
+   "centre": "มหาวิทยาลัยสงขลานครินทร์",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 810,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 810,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5"
+   ],
+   "maxSeats": 810,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์บางห้อง",
+   "mapUrl": "https://goo.gl/maps/5cHd392mhSFUa7Mx8",
+   "lat": 6.8756404,
+   "lng": 101.2376751,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "0507",
+   "name": "อยุธยาวิทยาลัย",
+   "province": "พระนครศรีอยุธยา",
+   "amphur": "พระนครศรีอยุธยา",
+   "universityId": "005",
+   "centre": "มหาวิทยาลัยธรรมศาสตร์ ศูนย์รังสิต",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1800,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1800,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 1800,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 1800,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "ไม่มีแอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/HLEoXGy92QF953Gi7",
+   "lat": 14.3518173,
+   "lng": 100.566942,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "0409",
+   "name": "พะเยาพิทยาคม",
+   "province": "พะเยา",
+   "amphur": "เมืองพะเยา",
+   "universityId": "004",
+   "centre": "มหาวิทยาลัยเชียงใหม่",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 2040,
+     "specialSeats": 30,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 2040,
+     "specialSeats": 30,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 2040,
+     "specialSeats": 30,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 2070,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "ไม่มีแอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/aReUFBDPRoHPcyY5A",
+   "lat": 19.1688359,
+   "lng": 99.9087327,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "1009",
+   "name": "ดีบุกพังงาวิทยายน",
+   "province": "พังงา",
+   "amphur": "เมืองพังงา",
+   "universityId": "010",
+   "centre": "มหาวิทยาลัยสงขลานครินทร์",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 840,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 840,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 840,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 840,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "ไม่มีแอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/UEWqzVWaNLmpE8SW6",
+   "lat": 8.4636483,
+   "lng": 98.5308442,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "1026",
+   "name": "พัทลุง",
+   "province": "พัทลุง",
+   "amphur": "เมืองพัทลุง",
+   "universityId": "010",
+   "centre": "มหาวิทยาลัยสงขลานครินทร์",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1200,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1200,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5"
+   ],
+   "maxSeats": 1200,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์บางห้อง",
+   "mapUrl": "https://maps.app.goo.gl/e6nedNcNV9KE7SuY8",
+   "lat": 7.6142819,
+   "lng": 100.0692942,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "1011",
+   "name": "สตรีพัทลุง",
+   "province": "พัทลุง",
+   "amphur": "เมืองพัทลุง",
+   "universityId": "010",
+   "centre": "มหาวิทยาลัยสงขลานครินทร์",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1470,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1470,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 1470,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 1470,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์บางห้อง",
+   "mapUrl": "https://goo.gl/maps/os89MXgC9k2KP6YeA",
+   "lat": 7.6177997,
+   "lng": 100.0779384,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "2009",
+   "name": "พิจิตรพิทยาคม",
+   "province": "พิจิตร",
+   "amphur": "เมืองพิจิตร",
+   "universityId": "020",
+   "centre": "มหาวิทยาลัยนเรศวร",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1050,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1050,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 1050,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 1050,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "ไม่มีแอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/vnwNYaVqE5AhMKny5",
+   "lat": 16.4472979,
+   "lng": 100.3265888,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "2008",
+   "name": "โรงเรียนตะพานหิน",
+   "province": "พิจิตร",
+   "amphur": "ตะพานหิน",
+   "universityId": "020",
+   "centre": "มหาวิทยาลัยนเรศวร",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1590,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3"
+   ],
+   "maxSeats": 1590,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์บางห้อง",
+   "mapUrl": "https://goo.gl/maps/3JNu1dUtV1oHM9Vc6",
+   "lat": 16.2135963,
+   "lng": 100.4406661,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "2010",
+   "name": "มหาวิทยาลัยนเรศวร",
+   "province": "พิษณุโลก",
+   "amphur": "เมืองพิษณุโลก",
+   "universityId": "020",
+   "centre": "มหาวิทยาลัยนเรศวร",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 4080,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 4080,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 4080,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 4080,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/jJ48V6SefJVfH2WJ7",
+   "lat": 16.7479112,
+   "lng": 100.1919336,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "0809",
+   "name": "เบญจมเทพอุทิศจังหวัดเพชรบุรี",
+   "province": "เพชรบุรี",
+   "amphur": "เมืองเพชรบุรี",
+   "universityId": "008",
+   "centre": "มหาวิทยาลัยศิลปากร",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 2100,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 2100,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 2100,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 2100,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์บางห้อง",
+   "mapUrl": "https://goo.gl/maps/uWUQsATE13j7SqXi6",
+   "lat": 13.1143805,
+   "lng": 99.9386637,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "2011",
+   "name": "เพชรพิทยาคม",
+   "province": "เพชรบูรณ์",
+   "amphur": "เมืองเพชรบูรณ์",
+   "universityId": "020",
+   "centre": "มหาวิทยาลัยนเรศวร",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 2070,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 2070,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 2070,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 2070,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์บางห้อง",
+   "mapUrl": "https://goo.gl/maps/MWjoTV4Wp4A2VqYF7",
+   "lat": 16.4327893,
+   "lng": 101.1542522,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "2012",
+   "name": "วิทยานุกูลนารี",
+   "province": "เพชรบูรณ์",
+   "amphur": "เมืองเพชรบูรณ์",
+   "universityId": "020",
+   "centre": "มหาวิทยาลัยนเรศวร",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 2400,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3"
+   ],
+   "maxSeats": 2400,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/nVvt7myGWvWAgoxWA",
+   "lat": 16.4301417,
+   "lng": 101.153929,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "2013",
+   "name": "หล่มสักวิทยาคม",
+   "province": "เพชรบูรณ์",
+   "amphur": "หล่มสัก",
+   "universityId": "020",
+   "centre": "มหาวิทยาลัยนเรศวร",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1500,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1500,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 1500,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 1500,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์บางห้อง",
+   "mapUrl": "https://goo.gl/maps/mdaiUEC9KsVpxqoy5",
+   "lat": 16.7906276,
+   "lng": 101.2447492,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "0410",
+   "name": "นารีรัตน์จังหวัดแพร่",
+   "province": "แพร่",
+   "amphur": "เมืองแพร่",
+   "universityId": "004",
+   "centre": "มหาวิทยาลัยเชียงใหม่",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1740,
+     "specialSeats": 30,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1740,
+     "specialSeats": 30,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 1740,
+     "specialSeats": 30,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 1770,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "ไม่มีแอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/ry2zEXWCMhQpuU3H8",
+   "lat": 18.1431175,
+   "lng": 100.1394019,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "1012",
+   "name": "ภูเก็ตวิทยาลัย",
+   "province": "ภูเก็ต",
+   "amphur": "เมืองภูเก็ต",
+   "universityId": "010",
+   "centre": "มหาวิทยาลัยสงขลานครินทร์",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 2640,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 2640,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 2640,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 2640,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์บางห้อง",
+   "mapUrl": "https://goo.gl/maps/vYAtBsSk4jrnzgsS6",
+   "lat": 7.8928229,
+   "lng": 98.3883153,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "1013",
+   "name": "สตรีภูเก็ต",
+   "province": "ภูเก็ต",
+   "amphur": "เมืองภูเก็ต",
+   "universityId": "010",
+   "centre": "มหาวิทยาลัยสงขลานครินทร์",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1530,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1530,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5"
+   ],
+   "maxSeats": 1530,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์บางห้อง",
+   "mapUrl": "https://goo.gl/maps/8QnC8grgYhunSXmh7",
+   "lat": 7.8912176,
+   "lng": 98.3905983,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "2104",
+   "name": "ผดุงนารี",
+   "province": "มหาสารคาม",
+   "amphur": "เมืองมหาสารคาม",
+   "universityId": "021",
+   "centre": "มหาวิทยาลัยมหาสารคาม",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 2070,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 2070,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5"
+   ],
+   "maxSeats": 2070,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "ไม่มีแอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/9iYANjaVW91vPTp59",
+   "lat": 16.1839205,
+   "lng": 103.3019728,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "2105",
+   "name": "สารคามพิทยาคม",
+   "province": "มหาสารคาม",
+   "amphur": "เมืองมหาสารคาม",
+   "universityId": "021",
+   "centre": "มหาวิทยาลัยมหาสารคาม",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 2070,
+     "specialSeats": 30,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 2070,
+     "specialSeats": 30,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 2070,
+     "specialSeats": 30,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 2100,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์บางห้อง",
+   "mapUrl": "https://goo.gl/maps/6SCVLHEwQHhZMNtS7",
+   "lat": 16.1867119,
+   "lng": 103.2991363,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "2604",
+   "name": "มุกดาหาร",
+   "province": "มุกดาหาร",
+   "amphur": "เมืองมุกดาหาร",
+   "universityId": "026",
+   "centre": "มหาวิทยาลัยนครพนม",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1590,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1590,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 1590,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 1590,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์ทุกห้อง",
+   "mapUrl": "https://maps.app.goo.gl/t3JcWr5dWzuVTbL29",
+   "lat": 16.5382342,
+   "lng": 104.7160748,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "0411",
+   "name": "ห้องสอนศึกษา ในพระอุปถัมภ์ฯ",
+   "province": "แม่ฮ่องสอน",
+   "amphur": "เมืองแม่ฮ่องสอน",
+   "universityId": "004",
+   "centre": "มหาวิทยาลัยเชียงใหม่",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 660,
+     "specialSeats": 30,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 660,
+     "specialSeats": 30,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 660,
+     "specialSeats": 30,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 690,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "ไม่มีแอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/C95kpWwQvx6aD6Hz6",
+   "lat": 19.3114265,
+   "lng": 97.96364,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "1801",
+   "name": "ยโสธรพิทยาคม",
+   "province": "ยโสธร",
+   "amphur": "เมืองยโสธร",
+   "universityId": "018",
+   "centre": "มหาวิทยาลัยอุบลราชธานี",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1350,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1350,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 1350,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 1350,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "ไม่มีแอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/8wDFHvH7jsAhFe8d6",
+   "lat": 15.8047202,
+   "lng": 104.1392142,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "2502",
+   "name": "คณะราษฎรบำรุง จังหวัดยะลา",
+   "province": "ยะลา",
+   "amphur": "เมืองยะลา",
+   "universityId": "025",
+   "centre": "มหาวิทยาลัยนราธิวาสราชนครินทร์",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1440,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1440,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 1440,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 1440,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์บางห้อง",
+   "mapUrl": "https://goo.gl/maps/Ao6xPGrTJw3b7ZBu9",
+   "lat": 6.554453,
+   "lng": 101.2899133,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "2505",
+   "name": "ธรรมวิทยามูลนิธิ",
+   "province": "ยะลา",
+   "amphur": "เมืองยะลา",
+   "universityId": "025",
+   "centre": "มหาวิทยาลัยนราธิวาสราชนครินทร์",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1980,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1980,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 1980,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 1980,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์บางห้อง",
+   "mapUrl": "https://maps.app.goo.gl/6o7TGn7PrXbJ5WB78",
+   "lat": 6.5674901,
+   "lng": 101.2966181,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "2503",
+   "name": "สตรียะลา",
+   "province": "ยะลา",
+   "amphur": "เมืองยะลา",
+   "universityId": "025",
+   "centre": "มหาวิทยาลัยนราธิวาสราชนครินทร์",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1050,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1050,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 1050,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 1050,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์บางห้อง",
+   "mapUrl": "https://goo.gl/maps/f9orDJtqXbx2RLiD7",
+   "lat": 6.5463214,
+   "lng": 101.2848322,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "2106",
+   "name": "ร้อยเอ็ดวิทยาลัย",
+   "province": "ร้อยเอ็ด",
+   "amphur": "เมืองร้อยเอ็ด",
+   "universityId": "021",
+   "centre": "มหาวิทยาลัยมหาสารคาม",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 2250,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 2250,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5"
+   ],
+   "maxSeats": 2250,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/mAV3LEqVkLyMuQ2XA",
+   "lat": 16.0521495,
+   "lng": 103.6567617,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "2107",
+   "name": "สตรีศึกษา",
+   "province": "ร้อยเอ็ด",
+   "amphur": "เมืองร้อยเอ็ด",
+   "universityId": "021",
+   "centre": "มหาวิทยาลัยมหาสารคาม",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 2100,
+     "specialSeats": 30,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 2100,
+     "specialSeats": 30,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 2100,
+     "specialSeats": 30,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 2130,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/xUFyeaft4XMxBGEC6",
+   "lat": 16.0488781,
+   "lng": 103.6549343,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "2306",
+   "name": "พิชัยรัตนาคาร",
+   "province": "ระนอง",
+   "amphur": "เมืองระนอง",
+   "universityId": "023",
+   "centre": "มหาวิทยาลัยวลัยลักษณ์",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 980,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 980,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 980,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 980,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "ไม่มีแอร์ทุกห้อง",
+   "mapUrl": "https://maps.app.goo.gl/eSwcu5nTAf4agpaD6",
+   "lat": 9.9542159,
+   "lng": 98.6367172,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "1915",
+   "name": "แกลง วิทยสถาวร",
+   "province": "ระยอง",
+   "amphur": "แกลง",
+   "universityId": "019",
+   "centre": "มหาวิทยาลัยบูรพา",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1260,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3"
+   ],
+   "maxSeats": 1260,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "ไม่มีแอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/dC25So6Tu6nCowDW9",
+   "lat": 12.7649068,
+   "lng": 101.6553961,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "1921",
+   "name": "มัธยมตากสินระยอง",
+   "province": "ระยอง",
+   "amphur": "เมืองระยอง",
+   "universityId": "019",
+   "centre": "มหาวิทยาลัยบูรพา",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1500,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3"
+   ],
+   "maxSeats": 1500,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์ทุกห้อง",
+   "mapUrl": "https://maps.app.goo.gl/6qD8Nvy659Biw3yQA",
+   "lat": 12.69131,
+   "lng": 101.282812,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "1916",
+   "name": "ระยองวิทยาคม",
+   "province": "ระยอง",
+   "amphur": "เมืองระยอง",
+   "universityId": "019",
+   "centre": "มหาวิทยาลัยบูรพา",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1540,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1710,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 1710,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 1710,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์บางห้อง",
+   "mapUrl": "https://goo.gl/maps/A8PKAG2fKkq3gBD79",
+   "lat": 12.6669623,
+   "lng": 101.2738797,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "1918",
+   "name": "โรงเรียนวัดป่าประดู่",
+   "province": "ระยอง",
+   "amphur": "เมืองระยอง",
+   "universityId": "019",
+   "centre": "มหาวิทยาลัยบูรพา",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1200,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3"
+   ],
+   "maxSeats": 1200,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "ไม่มีแอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/e45UG6CUzxGK8P4h6",
+   "lat": 12.6832062,
+   "lng": 101.2779199,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "0811",
+   "name": "เบญจมราชูทิศ ราชบุรี",
+   "province": "ราชบุรี",
+   "amphur": "เมืองราชบุรี",
+   "universityId": "008",
+   "centre": "มหาวิทยาลัยศิลปากร",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 2040,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 2040,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 2040,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 2040,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/VumrWwVi6CU5Vh3y8",
+   "lat": 13.5368298,
+   "lng": 99.8272256,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "0822",
+   "name": "โพธาวัฒนาเสนี",
+   "province": "ราชบุรี",
+   "amphur": "โพธาราม",
+   "universityId": "008",
+   "centre": "มหาวิทยาลัยศิลปากร",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 690,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3"
+   ],
+   "maxSeats": 690,
+   "transit": null,
+   "aircon": null,
+   "mapUrl": "https://maps.app.goo.gl/QJ8PAukcvNmpXW9DA",
+   "lat": 13.6918307,
+   "lng": 99.8620165,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "0810",
+   "name": "รัตนราษฎร์บำรุง",
+   "province": "ราชบุรี",
+   "amphur": "บ้านโป่ง",
+   "universityId": "008",
+   "centre": "มหาวิทยาลัยศิลปากร",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 420,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3"
+   ],
+   "maxSeats": 420,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "ไม่มีแอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/8Za1Q9SGmUsDMgmD6",
+   "lat": 13.8057524,
+   "lng": 99.8738444,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "0913",
+   "name": "พระนารายณ์",
+   "province": "ลพบุรี",
+   "amphur": "เมืองลพบุรี",
+   "universityId": "009",
+   "centre": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1350,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3"
+   ],
+   "maxSeats": 1350,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์ทุกห้อง",
+   "mapUrl": "https://maps.app.goo.gl/9tn7uNe9UwPwemu5A",
+   "lat": 14.7940661,
+   "lng": 100.6787892,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "0911",
+   "name": "พิบูลวิทยาลัย",
+   "province": "ลพบุรี",
+   "amphur": "เมืองลพบุรี",
+   "universityId": "009",
+   "centre": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 2190,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 2190,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 2190,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 2190,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/LX6wUs5zViBRyK88A",
+   "lat": 14.8022429,
+   "lng": 100.6165067,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "0412",
+   "name": "บุญวาทย์วิทยาลัย",
+   "province": "ลำปาง",
+   "amphur": "เมืองลำปาง",
+   "universityId": "004",
+   "centre": "มหาวิทยาลัยเชียงใหม่",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1440,
+     "specialSeats": 30,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1440,
+     "specialSeats": 30,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 1440,
+     "specialSeats": 30,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 1470,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์บางห้อง",
+   "mapUrl": "https://goo.gl/maps/HznZN6aQAnaQn1gh7",
+   "lat": 18.2867646,
+   "lng": 99.5016691,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "0413",
+   "name": "ลำปางกัลยาณี",
+   "province": "ลำปาง",
+   "amphur": "เมืองลำปาง",
+   "universityId": "004",
+   "centre": "มหาวิทยาลัยเชียงใหม่",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1110,
+     "specialSeats": 30,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3"
+   ],
+   "maxSeats": 1140,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/r3CxtfTPaN8cBzk2A",
+   "lat": 18.2857921,
+   "lng": 99.4984405,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "0414",
+   "name": "จักรคำคณาทร จังหวัดลำพูน",
+   "province": "ลำพูน",
+   "amphur": "เมืองลำพูน",
+   "universityId": "004",
+   "centre": "มหาวิทยาลัยเชียงใหม่",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1710,
+     "specialSeats": 30,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1710,
+     "specialSeats": 30,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 1710,
+     "specialSeats": 30,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 1740,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/5s9QF6NweSp1sEhZ8",
+   "lat": 18.591915,
+   "lng": 99.0139805,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "0308",
+   "name": "เลยพิทยาคม",
+   "province": "เลย",
+   "amphur": "เมืองเลย",
+   "universityId": "003",
+   "centre": "มหาวิทยาลัยขอนแก่น",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1920,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1920,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 1920,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 1920,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "ไม่มีแอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/uKx5JXZMPkpyBqNZ8",
+   "lat": 17.4906563,
+   "lng": 101.7160285,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "1802",
+   "name": "กันทรลักษ์วิทยา",
+   "province": "ศรีสะเกษ",
+   "amphur": "กันทรลักษ์",
+   "universityId": "018",
+   "centre": "มหาวิทยาลัยอุบลราชธานี",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 900,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 900,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5"
+   ],
+   "maxSeats": 900,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "ไม่มีแอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/dMFWCAECrEosdCe39",
+   "lat": 14.6360315,
+   "lng": 104.6488762,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "1803",
+   "name": "ขุขันธ์",
+   "province": "ศรีสะเกษ",
+   "amphur": "ขุขันธ์",
+   "universityId": "018",
+   "centre": "มหาวิทยาลัยอุบลราชธานี",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1230,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1230,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5"
+   ],
+   "maxSeats": 1230,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "ไม่มีแอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/KBgH43pXXqp27vTD7",
+   "lat": 14.7088933,
+   "lng": 104.1973457,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "1804",
+   "name": "ศรีสะเกษวิทยาลัย",
+   "province": "ศรีสะเกษ",
+   "amphur": "เมืองศรีสะเกษ",
+   "universityId": "018",
+   "centre": "มหาวิทยาลัยอุบลราชธานี",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1350,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1350,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 1350,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 1350,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "ไม่มีแอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/AJaAqaJrZoquD69a7",
+   "lat": 15.111844,
+   "lng": 104.3244918,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "1805",
+   "name": "สตรีสิริเกศ",
+   "province": "ศรีสะเกษ",
+   "amphur": "เมืองศรีสะเกษ",
+   "universityId": "018",
+   "centre": "มหาวิทยาลัยอุบลราชธานี",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 2070,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 2070,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5"
+   ],
+   "maxSeats": 2070,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "ไม่มีแอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/5FPMSRT5jaPUfTdF8",
+   "lat": 15.1150853,
+   "lng": 104.3254178,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "0323",
+   "name": "ธาตุนารายณ์วิทยา",
+   "province": "สกลนคร",
+   "amphur": "เมืองสกลนคร",
+   "universityId": "003",
+   "centre": "มหาวิทยาลัยขอนแก่น",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1020,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3"
+   ],
+   "maxSeats": 1020,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "ไม่มีแอร์ทุกห้อง",
+   "mapUrl": "https://maps.app.goo.gl/pygwaN8N4JnmQVYQ9",
+   "lat": 17.1959918,
+   "lng": 104.0849367,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "0310",
+   "name": "สกลราชวิทยานุกูล",
+   "province": "สกลนคร",
+   "amphur": "เมืองสกลนคร",
+   "universityId": "003",
+   "centre": "มหาวิทยาลัยขอนแก่น",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 2340,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 2340,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 2340,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 2340,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "ไม่มีแอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/oa9fv5ZJpBFtkRor8",
+   "lat": 17.1710764,
+   "lng": 104.1498911,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "1031",
+   "name": "แจ้งวิทยา",
+   "province": "สงขลา",
+   "amphur": "เมืองสงขลา",
+   "universityId": "010",
+   "centre": "มหาวิทยาลัยสงขลานครินทร์",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1200,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1200,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5"
+   ],
+   "maxSeats": 1200,
+   "transit": null,
+   "aircon": null,
+   "mapUrl": null,
+   "lat": 7.1243147,
+   "lng": 100.6073433,
+   "coordPrecision": "approx"
+  },
+  {
+   "id": "1016",
+   "name": "รร.เทศบาล 1 เอ็งเสียงสามัคคี",
+   "province": "สงขลา",
+   "amphur": "หาดใหญ่",
+   "universityId": "010",
+   "centre": "มหาวิทยาลัยสงขลานครินทร์",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 900,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 900,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5"
+   ],
+   "maxSeats": 900,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "ไม่มีแอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/udCj4mLCoKCZN6E67",
+   "lat": 7.0159045,
+   "lng": 100.4696281,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "1017",
+   "name": "โรงเรียนศรีนครมูลนิธิ",
+   "province": "สงขลา",
+   "amphur": "หาดใหญ่",
+   "universityId": "010",
+   "centre": "มหาวิทยาลัยสงขลานครินทร์",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1200,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1200,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5"
+   ],
+   "maxSeats": 1200,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "ไม่มีแอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/Fz8p8ucurK4nxFCS9",
+   "lat": 7.003371,
+   "lng": 100.4762766,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "1015",
+   "name": "วรนารีเฉลิม จังหวัดสงขลา",
+   "province": "สงขลา",
+   "amphur": "เมืองสงขลา",
+   "universityId": "010",
+   "centre": "มหาวิทยาลัยสงขลานครินทร์",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1590,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1590,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 1590,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 1590,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "ไม่มีแอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/yZ4q2J8faqoH2PU3A",
+   "lat": 7.2043903,
+   "lng": 100.5956382,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "1023",
+   "name": "สงขลาวิทยาคม",
+   "province": "สงขลา",
+   "amphur": "สิงหนคร",
+   "universityId": "010",
+   "centre": "มหาวิทยาลัยสงขลานครินทร์",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 780,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 780,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5"
+   ],
+   "maxSeats": 780,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "ไม่มีแอร์ทุกห้อง",
+   "mapUrl": "https://maps.app.goo.gl/9fhfYJTwe52wVo6QA",
+   "lat": 7.2413893,
+   "lng": 100.5480486,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "1025",
+   "name": "หาดใหญ่วิทยาลัย ๒",
+   "province": "สงขลา",
+   "amphur": "หาดใหญ่",
+   "universityId": "010",
+   "centre": "มหาวิทยาลัยสงขลานครินทร์",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1140,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1140,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5"
+   ],
+   "maxSeats": 1140,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์บางห้อง",
+   "mapUrl": "https://goo.gl/maps/gePN2of8D6rGtdsw7",
+   "lat": 6.9211535,
+   "lng": 100.4572054,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "1020",
+   "name": "หาดใหญ่วิทยาลัยสมบูรณ์กุลกันยา",
+   "province": "สงขลา",
+   "amphur": "หาดใหญ่",
+   "universityId": "010",
+   "centre": "มหาวิทยาลัยสงขลานครินทร์",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1560,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1560,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 1560,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 1560,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์บางห้อง",
+   "mapUrl": "https://goo.gl/maps/i1MFUWVdbU4pRnNy7",
+   "lat": 7.0026765,
+   "lng": 100.4581811,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "1021",
+   "name": "พิมานพิทยาสรรค์",
+   "province": "สตูล",
+   "amphur": "เมืองสตูล",
+   "universityId": "010",
+   "centre": "มหาวิทยาลัยสงขลานครินทร์",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1440,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1440,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 1440,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 1440,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์บางห้อง",
+   "mapUrl": "https://goo.gl/maps/YTYK57tcfcf8EpQZ8",
+   "lat": 6.6255932,
+   "lng": 100.0674653,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "1022",
+   "name": "สตูลวิทยา",
+   "province": "สตูล",
+   "amphur": "เมืองสตูล",
+   "universityId": "010",
+   "centre": "มหาวิทยาลัยสงขลานครินทร์",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1080,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1080,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5"
+   ],
+   "maxSeats": 1080,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์บางห้อง",
+   "mapUrl": "https://goo.gl/maps/Yr33Mjf8JcX9twSV7",
+   "lat": 6.6514697,
+   "lng": 100.0810852,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "1411",
+   "name": "เทพศิรินทร์สมุทรปราการ",
+   "province": "สมุทรปราการ",
+   "amphur": "เมืองสมุทรปราการ",
+   "universityId": "014",
+   "centre": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 2345,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 2345,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5"
+   ],
+   "maxSeats": 2345,
+   "transit": "รถไฟฟ้า",
+   "aircon": "แอร์บางห้อง",
+   "mapUrl": "https://goo.gl/maps/L33tfYQf7L1mq3oc7",
+   "lat": 13.6306497,
+   "lng": 100.612042,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "1413",
+   "name": "โรงเรียนสมุทรปราการ",
+   "province": "สมุทรปราการ",
+   "amphur": "เมืองสมุทรปราการ",
+   "universityId": "014",
+   "centre": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1820,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1820,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 1820,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 1820,
+   "transit": "รถไฟฟ้า",
+   "aircon": "ไม่มีแอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/SPuiMWZ1eEFYJAFA6",
+   "lat": 13.5855192,
+   "lng": 100.6071958,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "1412",
+   "name": "สตรีสมุทรปราการ",
+   "province": "สมุทรปราการ",
+   "amphur": "เมืองสมุทรปราการ",
+   "universityId": "014",
+   "centre": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1435,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1435,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 1435,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 1435,
+   "transit": "รถไฟฟ้า",
+   "aircon": "ไม่มีแอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/mg5pR91ZzWXnT8Wr8",
+   "lat": 13.5975959,
+   "lng": 100.6049113,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "0812",
+   "name": "ถาวรานุกูล",
+   "province": "สมุทรสงคราม",
+   "amphur": "เมืองสมุทรสงคราม",
+   "universityId": "008",
+   "centre": "มหาวิทยาลัยศิลปากร",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1170,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1170,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 1170,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 1170,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "ไม่มีแอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/7MGmaZfjEPY9hWD9A",
+   "lat": 13.4148491,
+   "lng": 99.9988926,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "0813",
+   "name": "สมุทรสาครบูรณะ",
+   "province": "สมุทรสาคร",
+   "amphur": "เมืองสมุทรสาคร",
+   "universityId": "008",
+   "centre": "มหาวิทยาลัยศิลปากร",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1320,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1320,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 1320,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 1320,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์บางห้อง",
+   "mapUrl": "https://goo.gl/maps/XmaJZfT2mjg2ToMy8",
+   "lat": 13.5480716,
+   "lng": 100.2754863,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "1919",
+   "name": "โรงเรียนสระแก้ว",
+   "province": "สระแก้ว",
+   "amphur": "เมืองสระแก้ว",
+   "universityId": "019",
+   "centre": "มหาวิทยาลัยบูรพา",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1470,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1470,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 1470,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 1470,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "ไม่มีแอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/DFSHzJLzbdC47vX56",
+   "lat": 13.8283834,
+   "lng": 102.0602341,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "1924",
+   "name": "วัฒนานคร",
+   "province": "สระแก้ว",
+   "amphur": "วัฒนานคร",
+   "universityId": "019",
+   "centre": "มหาวิทยาลัยบูรพา",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1320,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3"
+   ],
+   "maxSeats": 1320,
+   "transit": null,
+   "aircon": null,
+   "mapUrl": null,
+   "lat": 13.9304026,
+   "lng": 102.3286848,
+   "coordPrecision": "approx"
+  },
+  {
+   "id": "0912",
+   "name": "สระบุรีวิทยาคม",
+   "province": "สระบุรี",
+   "amphur": "เมืองสระบุรี",
+   "universityId": "009",
+   "centre": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 2190,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 2190,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 2190,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 2190,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์บางห้อง",
+   "mapUrl": "https://goo.gl/maps/Y8NCFWv9nzRuxUZ88",
+   "lat": 14.542896,
+   "lng": 100.910141,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "0510",
+   "name": "สิงห์บุรี",
+   "province": "สิงห์บุรี",
+   "amphur": "เมืองสิงห์บุรี",
+   "universityId": "005",
+   "centre": "มหาวิทยาลัยธรรมศาสตร์ ศูนย์รังสิต",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 780,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 780,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 780,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 780,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "ไม่มีแอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/GgSkWFHaiAqTAqPJA",
+   "lat": 14.8932727,
+   "lng": 100.412964,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "2015",
+   "name": "สวรรค์อนันต์วิทยา",
+   "province": "สุโขทัย",
+   "amphur": "สวรรคโลก",
+   "universityId": "020",
+   "centre": "มหาวิทยาลัยนเรศวร",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 720,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3"
+   ],
+   "maxSeats": 720,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์บางห้อง",
+   "mapUrl": "https://goo.gl/maps/qTDBk71FqA2dSbzz5",
+   "lat": 17.2959849,
+   "lng": 99.8383603,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "2014",
+   "name": "สุโขทัยวิทยาคม",
+   "province": "สุโขทัย",
+   "amphur": "เมืองสุโขทัย",
+   "universityId": "020",
+   "centre": "มหาวิทยาลัยนเรศวร",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1890,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1890,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 1890,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 1890,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์บางห้อง",
+   "mapUrl": "https://goo.gl/maps/JvNEdcAYfz4QJxLm7",
+   "lat": 17.0126044,
+   "lng": 99.792216,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "0814",
+   "name": "กรรณสูตศึกษาลัย",
+   "province": "สุพรรณบุรี",
+   "amphur": "เมืองสุพรรณบุรี",
+   "universityId": "008",
+   "centre": "มหาวิทยาลัยศิลปากร",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 2250,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 2250,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 2250,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 2250,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์บางห้อง",
+   "mapUrl": "https://goo.gl/maps/i4JUSqsczsQtTC9J8",
+   "lat": 14.4767112,
+   "lng": 100.0975588,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "0815",
+   "name": "สงวนหญิง",
+   "province": "สุพรรณบุรี",
+   "amphur": "เมืองสุพรรณบุรี",
+   "universityId": "008",
+   "centre": "มหาวิทยาลัยศิลปากร",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1020,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3"
+   ],
+   "maxSeats": 1020,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์บางห้อง",
+   "mapUrl": "https://goo.gl/maps/zZGFuJJ2789n8oQn6",
+   "lat": 14.4848006,
+   "lng": 100.1240022,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "2307",
+   "name": "เมืองสุราษฎร์ธานี",
+   "province": "สุราษฎร์ธานี",
+   "amphur": "เมืองสุราษฎร์ธานี",
+   "universityId": "023",
+   "centre": "มหาวิทยาลัยวลัยลักษณ์",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1680,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1680,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 1680,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 1680,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์บางห้อง",
+   "mapUrl": "https://maps.app.goo.gl/gGNzPbYrumvRXRnj6",
+   "lat": 9.1365065,
+   "lng": 99.3412123,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "2305",
+   "name": "สุราษฎร์พิทยา",
+   "province": "สุราษฎร์ธานี",
+   "amphur": "เมืองสุราษฎร์ธานี",
+   "universityId": "023",
+   "centre": "มหาวิทยาลัยวลัยลักษณ์",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1820,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1820,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5"
+   ],
+   "maxSeats": 1820,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/3uf7eRxcBF7kBdF17",
+   "lat": 9.1420592,
+   "lng": 99.3263669,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "1711",
+   "name": "โรงเรียนสิรินธร",
+   "province": "สุรินทร์",
+   "amphur": "เมืองสุรินทร์",
+   "universityId": "017",
+   "centre": "มหาวิทยาลัยเทคโนโลยีสุรนารี",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1960,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3"
+   ],
+   "maxSeats": 1960,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/7jX63t4XeqUVFxyJ7",
+   "lat": 14.8825158,
+   "lng": 103.500434,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "1712",
+   "name": "สุรวิทยาคาร",
+   "province": "สุรินทร์",
+   "amphur": "เมืองสุรินทร์",
+   "universityId": "017",
+   "centre": "มหาวิทยาลัยเทคโนโลยีสุรนารี",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1750,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1750,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 1750,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 1750,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์บางห้อง",
+   "mapUrl": "https://goo.gl/maps/Y8ZksmKvEbzzoFao8",
+   "lat": 14.8796883,
+   "lng": 103.4992421,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "0311",
+   "name": "ปทุมเทพวิทยาคาร",
+   "province": "หนองคาย",
+   "amphur": "เมืองหนองคาย",
+   "universityId": "003",
+   "centre": "มหาวิทยาลัยขอนแก่น",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1620,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1620,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 1620,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 1620,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์บางห้อง",
+   "mapUrl": "https://goo.gl/maps/Q3aKUC2dmmWTNCDz5",
+   "lat": 17.8662304,
+   "lng": 102.7480781,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "0312",
+   "name": "หนองบัวพิทยาคาร",
+   "province": "หนองบัวลำภู",
+   "amphur": "เมืองหนองบัวลำภู",
+   "universityId": "003",
+   "centre": "มหาวิทยาลัยขอนแก่น",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1500,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1500,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 1500,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 1500,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์บางห้อง",
+   "mapUrl": "https://goo.gl/maps/pKpe88GbS7KdXaFZ8",
+   "lat": 17.211246,
+   "lng": 102.4470575,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "0509",
+   "name": "อ่างทองปัทมโรจน์วิทยาคม",
+   "province": "อ่างทอง",
+   "amphur": "เมืองอ่างทอง",
+   "universityId": "005",
+   "centre": "มหาวิทยาลัยธรรมศาสตร์ ศูนย์รังสิต",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1470,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1470,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 1470,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 1470,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "ไม่มีแอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/oYU3vXGzQ1XGNBQW8",
+   "lat": 14.5813462,
+   "lng": 100.4738284,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "1806",
+   "name": "โรงเรียนอำนาจเจริญ",
+   "province": "อำนาจเจริญ",
+   "amphur": "เมืองอำนาจเจริญ",
+   "universityId": "018",
+   "centre": "มหาวิทยาลัยอุบลราชธานี",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1110,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1110,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 1110,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 1110,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "ไม่มีแอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/JbbhYkcQENwEdTw1A",
+   "lat": 15.8727815,
+   "lng": 104.6229764,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "0319",
+   "name": "ประจักษ์ศิลปาคาร",
+   "province": "อุดรธานี",
+   "amphur": "เมืองอุดรธานี",
+   "universityId": "003",
+   "centre": "มหาวิทยาลัยขอนแก่น",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1710,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3"
+   ],
+   "maxSeats": 1710,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "ไม่มีแอร์ทุกห้อง",
+   "mapUrl": "https://maps.app.goo.gl/iB7hNrzyyerghJuG6",
+   "lat": 17.3933728,
+   "lng": 102.827683,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "0314",
+   "name": "สตรีราชินูทิศ",
+   "province": "อุดรธานี",
+   "amphur": "เมืองอุดรธานี",
+   "universityId": "003",
+   "centre": "มหาวิทยาลัยขอนแก่น",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1500,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1500,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5"
+   ],
+   "maxSeats": 1500,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "ไม่มีแอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/GNSBHoSkBkwLteth6",
+   "lat": 17.4085846,
+   "lng": 102.778684,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "0315",
+   "name": "อุดรพิชัยรักษ์พิทยา",
+   "province": "อุดรธานี",
+   "amphur": "เมืองอุดรธานี",
+   "universityId": "003",
+   "centre": "มหาวิทยาลัยขอนแก่น",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1500,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3"
+   ],
+   "maxSeats": 1500,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "ไม่มีแอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/sbFcsCjQRc2XmXcH6",
+   "lat": 17.3906881,
+   "lng": 102.7701758,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "0316",
+   "name": "อุดรพิทยานุกูล",
+   "province": "อุดรธานี",
+   "amphur": "เมืองอุดรธานี",
+   "universityId": "003",
+   "centre": "มหาวิทยาลัยขอนแก่น",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1800,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1800,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 1800,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 1800,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "ไม่มีแอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/sheeo8sd9kc1wrN66",
+   "lat": 17.406283,
+   "lng": 102.7825779,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "2016",
+   "name": "อุตรดิตถ์ดรุณี",
+   "province": "อุตรดิตถ์",
+   "amphur": "เมืองอุตรดิตถ์",
+   "universityId": "020",
+   "centre": "มหาวิทยาลัยนเรศวร",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 2310,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 2310,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 2310,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 2310,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์บางห้อง",
+   "mapUrl": "https://goo.gl/maps/yZog11K9TXN36yZk8",
+   "lat": 17.6276163,
+   "lng": 100.0973841,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "2017",
+   "name": "อุทัยวิทยาคม",
+   "province": "อุทัยธานี",
+   "amphur": "เมืองอุทัยธานี",
+   "universityId": "020",
+   "centre": "มหาวิทยาลัยนเรศวร",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1770,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1770,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 1770,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 1770,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์บางห้อง",
+   "mapUrl": "https://goo.gl/maps/udrfhrjccDTGu6D19",
+   "lat": 15.4008235,
+   "lng": 100.0323638,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "1807",
+   "name": "เดชอุดม",
+   "province": "อุบลราชธานี",
+   "amphur": "เดชอุดม",
+   "universityId": "018",
+   "centre": "มหาวิทยาลัยอุบลราชธานี",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1590,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1590,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5"
+   ],
+   "maxSeats": 1590,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "ไม่มีแอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/nntT9zDj3npmmqTAA",
+   "lat": 14.9185475,
+   "lng": 105.0655442,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "1810",
+   "name": "นารีนุกูล",
+   "province": "อุบลราชธานี",
+   "amphur": "เมืองอุบลราชธานี",
+   "universityId": "018",
+   "centre": "มหาวิทยาลัยอุบลราชธานี",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1350,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1350,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5"
+   ],
+   "maxSeats": 1350,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "ไม่มีแอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/L4f816piXzsNdGXd9",
+   "lat": 15.241303,
+   "lng": 104.8489406,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "1809",
+   "name": "พิบูลมังสาหาร",
+   "province": "อุบลราชธานี",
+   "amphur": "พิบูลมังสาหาร",
+   "universityId": "018",
+   "centre": "มหาวิทยาลัยอุบลราชธานี",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 1440,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 1440,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5"
+   ],
+   "maxSeats": 1440,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "ไม่มีแอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/c6kZdQSPggpb7bme7",
+   "lat": 15.2432275,
+   "lng": 105.2307716,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "1813",
+   "name": "มหาวิทยาลัยอุบลราชธานี",
+   "province": "อุบลราชธานี",
+   "amphur": "วารินชำราบ",
+   "universityId": "018",
+   "centre": "มหาวิทยาลัยอุบลราชธานี",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 2610,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 2610,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 3,
+     "date": "2027-02-01",
+     "exams": [
+      "TPAT4"
+     ],
+     "seats": 2610,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5",
+    "TPAT4"
+   ],
+   "maxSeats": 2610,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "แอร์ทุกห้อง",
+   "mapUrl": "https://maps.app.goo.gl/1g7ktSimcSGbDD1JA",
+   "lat": 15.117235,
+   "lng": 104.9028512,
+   "coordPrecision": "pin"
+  },
+  {
+   "id": "1808",
+   "name": "มัธยมตระการพืชผล",
+   "province": "อุบลราชธานี",
+   "amphur": "ตระการพืชผล",
+   "universityId": "018",
+   "centre": "มหาวิทยาลัยอุบลราชธานี",
+   "examTypes": [
+    "pbt"
+   ],
+   "days": [
+    {
+     "day": 1,
+     "date": "2027-01-30",
+     "exams": [
+      "TGAT",
+      "TPAT3"
+     ],
+     "seats": 900,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    },
+    {
+     "day": 2,
+     "date": "2027-01-31",
+     "exams": [
+      "TPAT2",
+      "TPAT5"
+     ],
+     "seats": 900,
+     "specialSeats": 0,
+     "cbtSeats": 0
+    }
+   ],
+   "exams": [
+    "TGAT",
+    "TPAT3",
+    "TPAT2",
+    "TPAT5"
+   ],
+   "maxSeats": 900,
+   "transit": "ไม่มีรถไฟฟ้า",
+   "aircon": "ไม่มีแอร์ทุกห้อง",
+   "mapUrl": "https://goo.gl/maps/WQqofHMyFwqPBetV6",
+   "lat": 15.5926917,
+   "lng": 105.0221565,
+   "coordPrecision": "pin"
+  }
+ ]
+}

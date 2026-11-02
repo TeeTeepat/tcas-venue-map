@@ -6,9 +6,14 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "copy-worker": "node -e \"require('fs').copyFileSync('node_modules/maplibre-gl/dist/maplibre-gl-worker.mjs','public/maplibre-gl-worker.mjs')\"",
+    "data": "node scripts/build-data.mjs",
+    "predev": "npm run copy-worker",
+    "prebuild": "npm run copy-worker"
   },
   "dependencies": {
+    "maplibre-gl": "^6.16.0",
     "next": "16.4.3",
     "react": "19.3.0",
     "react-dom": "19.3.0"

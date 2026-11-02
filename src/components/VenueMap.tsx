@@ -58,12 +58,14 @@ export default function VenueMap(props: Props) {
       style: MAP_STYLE,
       bounds: THAILAND_BOUNDS,
       fitBoundsOptions: { padding: 24 },
-      attributionControl: { compact: true },
+      attributionControl: false,
       dragRotate: false,
       pitchWithRotate: false,
     });
     m.touchZoomRotate.disableRotation();
     m.addControl(new maplibregl.NavigationControl({ showCompass: false }), "top-right");
+    // Top corner so the bottom sheet never hides the required OSM attribution.
+    m.addControl(new maplibregl.AttributionControl({ compact: true }), "top-right");
     map.current = m;
 
     m.on("load", () => {
@@ -103,12 +105,21 @@ export default function VenueMap(props: Props) {
           "circle-stroke-width": ["interpolate", ["linear"], ["zoom"], 5, 1.5, 12, 2.5],
         },
       });
-      m.on("click", "venue-dot", (e) => {
+      // Invisible, larger hit area so dots are tappable on phones.
+      m.addLayer({
+        id: "venue-hit",
+        type: "circle",
+        source: "venues",
+        paint: { "circle-radius": 16, "circle-opacity": 0 },
+      });
+      m.on("click", "venue-hit", (e) => {
         const id = e.features?.[0]?.properties?.id as string | undefined;
         if (id && !latest.current.pickMode) latest.current.onSelect(id);
       });
-      m.on("mouseenter", "venue-dot", () => (m.getCanvas().style.cursor = "pointer"));
-      m.on("mouseleave", "venue-dot", () => (m.getCanvas().style.cursor = ""));
+      m.on("mouseenter", "venue-hit", () => (m.getCanvas().style.cursor = "pointer"));
+      m.on("mouseleave", "venue-hit", () => (m.getCanvas().style.cursor = ""));
+      // Start collapsed to the (i) button; tapping it reveals the attribution.
+      el.current?.querySelector(".maplibregl-ctrl-attrib")?.classList.remove("maplibregl-compact-show");
       ready.current = true;
       m.setPadding(latest.current.padding);
     });
@@ -119,7 +130,7 @@ export default function VenueMap(props: Props) {
         p.onPick({ lat: e.lngLat.lat, lng: e.lngLat.lng });
         return;
       }
-      const hits = m.getLayer("venue-dot") ? m.queryRenderedFeatures(e.point, { layers: ["venue-dot"] }) : [];
+      const hits = m.getLayer("venue-hit") ? m.queryRenderedFeatures(e.point, { layers: ["venue-hit"] }) : [];
       if (!hits.length) p.onSelect(null);
     });
 

@@ -56,6 +56,8 @@ function useViewportHeight() {
 
 type Row = { v: Venue; km: number | null; seats: number | null };
 
+const HAY = new Map(VENUES.map((v) => [v.id, searchKey(`${displayName(v)}${v.name}${v.amphur}${v.province}${v.centre ?? ""}`)]));
+
 export default function VenueFinder() {
   const [home, setHome] = useHome();
   const [exam, setExam] = useState<ExamCode | null>(null);
@@ -72,9 +74,9 @@ export default function VenueFinder() {
   const listRef = useRef<HTMLDivElement>(null);
 
   const rows: Row[] = useMemo(() => {
-    const key = searchKey(q);
+    const tokens = q.split(/\s+/).map(searchKey).filter(Boolean);
     let list = VENUES.filter((v) => !exam || v.exams.includes(exam));
-    if (key) list = list.filter((v) => searchKey(`${v.name}${v.amphur}${v.province}${v.centre ?? ""}`).includes(key));
+    if (tokens.length) list = list.filter((v) => tokens.every((t) => HAY.get(v.id)!.includes(t)));
     const out = list.map((v) => ({ v, km: home ? distanceKm(home, v) : null, seats: seatsFor(v, exam) }));
     if (home) out.sort((a, b) => (a.km ?? 0) - (b.km ?? 0));
     return out;
@@ -100,19 +102,25 @@ export default function VenueFinder() {
   );
 
   const drag = useRef<{ y: number; h: number } | null>(null);
+  const lastDragH = useRef<number | null>(null);
   const onPointerDown = (e: React.PointerEvent) => {
     drag.current = { y: e.clientY, h: sheetH };
+    lastDragH.current = null;
     (e.currentTarget as HTMLElement).setPointerCapture(e.pointerId);
   };
   const onPointerMove = (e: React.PointerEvent) => {
     if (!drag.current) return;
     const h = Math.min(fullH, Math.max(PEEK - 40, drag.current.h + (drag.current.y - e.clientY)));
-    if (Math.abs(h - drag.current.h) > 4) setDragH(h);
+    if (Math.abs(h - drag.current.h) > 4) {
+      lastDragH.current = h;
+      setDragH(h);
+    }
   };
   const onPointerUp = () => {
     if (!drag.current) return;
-    const h = dragH;
+    const h = lastDragH.current;
     drag.current = null;
+    lastDragH.current = null;
     setDragH(null);
     if (h == null) {
       // treat as tap on the handle: cycle up
@@ -157,6 +165,7 @@ export default function VenueFinder() {
   const onPick = (pos: { lat: number; lng: number }) => {
     setHome({ ...pos, emoji: home?.emoji ?? "🏠" });
     setPickMode(false);
+    setGpsState("idle");
     setFocus({ ...pos, key: Date.now() });
     if (!isDesktop) setSnap("half");
   };
@@ -183,7 +192,7 @@ export default function VenueFinder() {
             onChange={(e) => setQuery(e.target.value)}
             onFocus={() => !isDesktop && setSnap("full")}
             placeholder="ค้นหาชื่อสนาม เขต หรือจังหวัด"
-            className="w-full bg-transparent text-[15px] text-[#1d1d1f] outline-none placeholder:text-[#86868b]"
+            className="w-full bg-transparent text-[16px] text-[#1d1d1f] outline-none placeholder:text-[#86868b]"
             inputMode="search"
           />
           {query && (
@@ -235,11 +244,19 @@ export default function VenueFinder() {
               <p className="text-[12px] text-[#6e6e73]">เรียงสนามจากใกล้ไปไกล · ลากหมุดบนแผนที่เพื่อย้าย</p>
             </div>
             <div className="flex shrink-0 gap-1">
-              <button onClick={useGps} className="rounded-full p-2 text-[#0071e3] hover:bg-white" aria-label="ใช้ GPS อีกครั้ง">
+              <button
+                onClick={useGps}
+                disabled={gpsState === "busy"}
+                className={`rounded-full p-2 text-[#0071e3] hover:bg-white disabled:opacity-40 ${gpsState === "busy" ? "animate-pulse" : ""}`}
+                aria-label="ใช้ GPS อีกครั้ง"
+              >
                 <LocateIcon />
               </button>
               <button
-                onClick={() => setPickMode((p) => !p)}
+                onClick={() => {
+                  setPickMode((p) => !p);
+                  if (!isDesktop && !pickMode) setSnap("peek");
+                }}
                 className={`rounded-full px-2.5 text-[13px] font-medium ${pickMode ? "bg-[#0071e3] text-white" : "text-[#0071e3] hover:bg-white"}`}
               >
                 {pickMode ? "แตะแผนที่" : "ย้าย"}
@@ -271,12 +288,12 @@ export default function VenueFinder() {
                 แตะบนแผนที่เอง
               </button>
             </div>
-            {gpsState === "denied" && (
-              <p className="mt-2 text-[12px] text-[#c4271f]">ไม่ได้รับอนุญาตให้ใช้ตำแหน่ง ลองแตะบนแผนที่เพื่อปักเองแทน</p>
-            )}
-            {gpsState === "error" && <p className="mt-2 text-[12px] text-[#c4271f]">หาตำแหน่งไม่สำเร็จ ลองอีกครั้งหรือแตะบนแผนที่</p>}
           </div>
         )}
+        {gpsState === "denied" && (
+          <p className="mt-2 px-1 text-[12px] text-[#c4271f]">ไม่ได้รับอนุญาตให้ใช้ตำแหน่ง ลองแตะบนแผนที่เพื่อปักเองแทน</p>
+        )}
+        {gpsState === "error" && <p className="mt-2 px-1 text-[12px] text-[#c4271f]">หาตำแหน่งไม่สำเร็จ ลองอีกครั้งหรือแตะบนแผนที่</p>}
         {emojiOpen && home && (
           <div className="mt-2 grid grid-cols-6 gap-1 rounded-2xl bg-[#f5f5f7] p-2">
             {HOME_EMOJIS.map((e) => (
@@ -334,7 +351,7 @@ export default function VenueFinder() {
             <a className="underline" href={DATA.source} target="_blank" rel="noreferrer">
               mytcas.com
             </a>{" "}
-            (ทปอ.) ดึงเมื่อ {updated.toLocaleDateString("th-TH", { day: "numeric", month: "short", year: "numeric" })}
+            (ทปอ.) ดึงเมื่อ {updated.toLocaleDateString("th-TH", { day: "numeric", month: "short", year: "numeric", timeZone: "Asia/Bangkok" })}
           </p>
           <p className="mt-1">
             จำนวนที่นั่งคือความจุของสนาม ไม่ใช่ที่นั่งว่าง ทปอ. เป็นผู้จัดสรรที่นั่ง โปรดตรวจสนามจริงจากบัตรที่นั่งสอบ ระยะทางเป็นเส้นตรง

@@ -64,8 +64,11 @@ export function seatsFor(v: Venue, exam: ExamCode | null): number | null {
 }
 
 export function displayName(v: Venue) {
-  const isSchoolLike = /^(โรงเรียน|มหาวิทยาลัย|วิทยาลัย|สถาบัน|ศูนย์|อาคาร|คณะ)/.test(v.name);
-  return isSchoolLike ? v.name : `โรงเรียน${v.name}`;
+  const name = v.name.replace(/^(ร\.ร\.|รร\.)\s*/, "โรงเรียน");
+  // Mirrors mytcas: universities/colleges/institutes stay as-is; everything else is a school.
+  if (/^(โรงเรียน|มหาวิทยาลัย|วิทยาลัย|สถาบัน)/.test(name)) return name;
+  if (name.includes("มหาวิทยาลัย") && !name.includes("สาธิต")) return name;
+  return `โรงเรียน${name}`;
 }
 
 export type Tone = "good" | "mid" | "bad" | "unknown";

@@ -107,6 +107,7 @@ async function main() {
   for (const row of venues) {
     const total = (row.seats || 0) + (row.special_seats || 0) + (row.cbt_seats || 0);
     if (total === 0 || !DAYS[row.date]) {
+      if (total > 0) console.warn(`WARNING: dropping row with ${total} seats (date=${row.date}): ${row.name}`);
       droppedZero++;
       continue;
     }
@@ -148,7 +149,7 @@ async function main() {
       maxSeats: Math.max(...dayList.map((d) => d.seats + d.specialSeats + d.cbtSeats)),
       transit: det?.transit || null, // "รถไฟฟ้า" | "ไม่มีรถไฟฟ้า" | null
       aircon: det?.aircon || null, // "แอร์ทุกห้อง" | "แอร์บางห้อง" | "ไม่มีแอร์ทุกห้อง" | null
-      mapUrl: det?.map || null,
+      mapUrl: det?.map && /^https:\/\//.test(det.map) ? det.map : null,
       lat: null,
       lng: null,
       coordPrecision: null,

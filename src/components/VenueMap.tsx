@@ -4,7 +4,7 @@ import { useEffect, useLayoutEffect, useRef } from "react";
 import * as maplibregl from "maplibre-gl";
 import type { GeoJSONSource, Map as MLMap, Marker } from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
-import type { Home } from "@/lib/home";
+import type { Home, MyLocation } from "@/lib/home";
 import { AIRCON_COLORS, airconInfo, type Venue } from "@/lib/venues";
 
 // Free vector tiles, no API key, no usage cap. Swap the style URL here if ever needed.
@@ -28,7 +28,32 @@ type Props = {
   onSelect: (id: string | null) => void;
   onPick: (pos: { lat: number; lng: number }) => void;
   onHomeDrag: (pos: { lat: number; lng: number }) => void;
+  me: MyLocation | null;
+  onLocate: () => void;
 };
+
+/** Map button (under zoom) that centres on the user's live location. */
+class LocateControl implements maplibregl.IControl {
+  private box?: HTMLDivElement;
+  constructor(private onClick: () => void) {}
+  onAdd() {
+    const box = document.createElement("div");
+    box.className = "maplibregl-ctrl maplibregl-ctrl-group";
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "locate-btn";
+    btn.title = "ตำแหน่งปัจจุบันของฉัน";
+    btn.setAttribute("aria-label", "ตำแหน่งปัจจุบันของฉัน");
+    btn.innerHTML = '<svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M21.4 2.6a.9.9 0 0 0-1-.2L2.9 10a.9.9 0 0 0 .1 1.7l7.2 2.1 2.1 7.2a.9.9 0 0 0 1.7.1l7.6-17.5a.9.9 0 0 0-.2-1z"/></svg>';
+    btn.addEventListener("click", () => this.onClick());
+    box.appendChild(btn);
+    this.box = box;
+    return box;
+  }
+  onRemove() {
+    this.box?.remove();
+  }
+}
 
 function toGeoJSON(venues: Venue[], ranks: Record<string, number>, selectedId: string | null): GeoJSON.FeatureCollection {
   // Ranked venues last so they draw on top.
@@ -53,6 +78,8 @@ export default function VenueMap(props: Props) {
   const el = useRef<HTMLDivElement>(null);
   const map = useRef<MLMap | null>(null);
   const homeMarker = useRef<Marker | null>(null);
+  const meMarker = useRef<Marker | null>(null);
+  const flyToMePending = useRef(false);
   const ready = useRef(false);
   const latest = useRef(props);
   useLayoutEffect(() => {
@@ -73,6 +100,17 @@ export default function VenueMap(props: Props) {
     });
     m.touchZoomRotate.disableRotation();
     m.addControl(new maplibregl.NavigationControl({ showCompass: false }), "top-right");
+    m.addControl(
+      new LocateControl(() => {
+        const me = latest.current.me;
+        if (me) m.flyTo({ center: [me.lng, me.lat], zoom: Math.max(m.getZoom(), 15), padding: latest.current.padding, speed: 1.6 });
+        else {
+          flyToMePending.current = true; // fly once the first fix arrives
+          latest.current.onLocate();
+        }
+      }),
+      "top-right",
+    );
     // Top corner so the bottom sheet never hides the required OSM attribution.
     m.addControl(new maplibregl.AttributionControl({ compact: true }), "top-right");
     map.current = m;
@@ -189,6 +227,31 @@ export default function VenueMap(props: Props) {
     const go = () => m.flyTo({ center: [f.lng, f.lat], zoom: f.zoom ?? Math.max(m.getZoom(), 13), padding: latest.current.padding, speed: 1.6 });
     go();
   }, [props.focus]);
+
+  // Live "you are here" dot with accuracy halo (does not move the camera).
+  useEffect(() => {
+    const m = map.current;
+    const me = props.me;
+    if (!m) return;
+    if (!me) {
+      meMarker.current?.remove();
+      meMarker.current = null;
+      return;
+    }
+    if (!meMarker.current) {
+      const node = document.createElement("div");
+      node.className = "me-dot";
+      node.setAttribute("aria-label", "ตำแหน่งปัจจุบันของคุณ");
+      node.innerHTML = '<span class="me-halo"></span><span class="me-core"></span>';
+      meMarker.current = new maplibregl.Marker({ element: node }).setLngLat([me.lng, me.lat]).addTo(m);
+    } else {
+      meMarker.current.setLngLat([me.lng, me.lat]);
+    }
+    if (flyToMePending.current) {
+      flyToMePending.current = false;
+      m.flyTo({ center: [me.lng, me.lat], zoom: Math.max(m.getZoom(), 15), padding: latest.current.padding, speed: 1.6 });
+    }
+  }, [props.me]);
 
   // Fit home + recommended venues.
   useEffect(() => {

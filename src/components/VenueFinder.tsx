@@ -3,7 +3,7 @@
 import dynamic from "next/dynamic";
 import Link from "next/link";
 import { useCallback, useDeferredValue, useEffect, useMemo, useRef, useState } from "react";
-import { locateMe, useHome } from "@/lib/home";
+import { locateMe, useHome, useMyLocation } from "@/lib/home";
 import {
   AIRCON_COLORS,
   DATA,
@@ -106,6 +106,7 @@ export default function VenueFinder() {
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const [pickMode, setPickMode] = useState(false);
   const [homeMenu, setHomeMenu] = useState(false);
+  const myLoc = useMyLocation();
   const [gpsState, setGpsState] = useState<"idle" | "busy" | "denied" | "error">("idle");
   const [focus, setFocus] = useState<{ lat: number; lng: number; zoom?: number; key: number } | null>(null);
   const [snap, setSnap] = useState<Snap>("half");
@@ -199,6 +200,7 @@ export default function VenueFinder() {
     try {
       const pos = await locateMe();
       setHome(pos);
+      myLoc.start(); // permission is granted now, so show the live dot too
       setFocus({ ...pos, zoom: 11.5, key: Date.now() });
       setGpsState("idle");
       setPickMode(false);
@@ -306,7 +308,7 @@ export default function VenueFinder() {
           <div className="flex items-center gap-3 rounded-2xl bg-[#f5f5f7] px-3 py-2.5">
             <button
               onClick={() => setHomeMenu((o) => !o)}
-              className="grid h-10 w-10 shrink-0 place-items-center rounded-full bg-[#0071e3] text-white shadow-sm"
+              className="grid h-10 w-10 shrink-0 place-items-center rounded-full bg-[#1d1d1f] text-white shadow-sm"
               aria-label="ตัวเลือกหมุดบ้าน"
             >
               <HouseIcon />
@@ -369,6 +371,9 @@ export default function VenueFinder() {
         )}
         {gpsState === "denied" && (
           <p className="mt-2 px-1 text-[12px] text-[#c4271f]">ไม่ได้รับอนุญาตให้ใช้ตำแหน่ง ลองแตะบนแผนที่เพื่อปักเองแทน</p>
+        )}
+        {myLoc.status === "denied" && gpsState !== "denied" && (
+          <p className="mt-2 px-1 text-[12px] text-[#c4271f]">เปิดสิทธิ์ตำแหน่งในการตั้งค่าเบราว์เซอร์ เพื่อดูตำแหน่งปัจจุบันของคุณ</p>
         )}
         {gpsState === "error" && <p className="mt-2 px-1 text-[12px] text-[#c4271f]">หาตำแหน่งไม่สำเร็จ ลองอีกครั้งหรือแตะบนแผนที่</p>}
         {homeMenu && home && (
@@ -458,6 +463,8 @@ export default function VenueFinder() {
         focus={focus}
         onSelect={(id) => select(id, false)}
         onPick={onPick}
+        me={myLoc.me}
+        onLocate={myLoc.start}
         onHomeDrag={(pos) => {
           setHome(pos);
           setPickMode(false); // re-lock after moving

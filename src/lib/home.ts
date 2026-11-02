@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useSyncExternalStore } from "react";
+import { useCallback, useEffect, useRef, useState, useSyncExternalStore } from "react";
 
 export type Home = { lat: number; lng: number };
 
@@ -61,4 +61,52 @@ export function locateMe(): Promise<{ lat: number; lng: number }> {
       { enableHighAccuracy: true, timeout: 15000, maximumAge: 60000 },
     );
   });
+}
+
+export type MyLocation = { lat: number; lng: number; accuracy: number };
+
+/**
+ * Live "you are here" position. Starts automatically if location permission was
+ * already granted; otherwise only after start() (a user tap), so we never prompt on load.
+ */
+export function useMyLocation() {
+  const [me, setMe] = useState<MyLocation | null>(null);
+  const [status, setStatus] = useState<"off" | "watching" | "denied" | "error">("off");
+  const watchId = useRef<number | null>(null);
+
+  const start = useCallback(() => {
+    if (!("geolocation" in navigator) || watchId.current != null) return;
+    setStatus("watching");
+    watchId.current = navigator.geolocation.watchPosition(
+      (p) => {
+        setMe({ lat: p.coords.latitude, lng: p.coords.longitude, accuracy: p.coords.accuracy });
+        setStatus("watching");
+      },
+      (e) => {
+        setStatus(e.code === 1 ? "denied" : "error");
+        if (e.code === 1 && watchId.current != null) {
+          navigator.geolocation.clearWatch(watchId.current);
+          watchId.current = null;
+        }
+      },
+      { enableHighAccuracy: true, maximumAge: 10000, timeout: 20000 },
+    );
+  }, []);
+
+  useEffect(() => {
+    let cancelled = false;
+    navigator.permissions
+      ?.query({ name: "geolocation" as PermissionName })
+      .then((r) => {
+        if (!cancelled && r.state === "granted") start();
+      })
+      .catch(() => {});
+    return () => {
+      cancelled = true;
+      if (watchId.current != null) navigator.geolocation.clearWatch(watchId.current);
+      watchId.current = null;
+    };
+  }, [start]);
+
+  return { me, status, start };
 }

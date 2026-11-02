@@ -3,7 +3,7 @@
 import dynamic from "next/dynamic";
 import Link from "next/link";
 import { useCallback, useDeferredValue, useEffect, useMemo, useRef, useState } from "react";
-import { HOME_EMOJIS, locateMe, useHome } from "@/lib/home";
+import { locateMe, useHome } from "@/lib/home";
 import {
   AIRCON_COLORS,
   DATA,
@@ -24,7 +24,7 @@ import {
   type LatLng,
   type Venue,
 } from "@/lib/venues";
-import { ArrowIcon, Chip, ChevronIcon, LocateIcon, SearchIcon, SnowIcon, TrainIcon } from "./ui";
+import { ArrowIcon, Chip, ChevronIcon, HouseIcon, LocateIcon, LockIcon, SearchIcon, SnowIcon, TrainIcon } from "./ui";
 
 const VenueMap = dynamic(() => import("./VenueMap"), {
   ssr: false,
@@ -105,7 +105,7 @@ export default function VenueFinder() {
   const q = useDeferredValue(query);
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const [pickMode, setPickMode] = useState(false);
-  const [emojiOpen, setEmojiOpen] = useState(false);
+  const [homeMenu, setHomeMenu] = useState(false);
   const [gpsState, setGpsState] = useState<"idle" | "busy" | "denied" | "error">("idle");
   const [focus, setFocus] = useState<{ lat: number; lng: number; zoom?: number; key: number } | null>(null);
   const [snap, setSnap] = useState<Snap>("half");
@@ -198,7 +198,7 @@ export default function VenueFinder() {
     setGpsState("busy");
     try {
       const pos = await locateMe();
-      setHome({ ...pos, emoji: home?.emoji ?? "🏠" });
+      setHome(pos);
       setFocus({ ...pos, zoom: 11.5, key: Date.now() });
       setGpsState("idle");
       setPickMode(false);
@@ -209,7 +209,7 @@ export default function VenueFinder() {
   };
 
   const onPick = (pos: { lat: number; lng: number }) => {
-    setHome({ ...pos, emoji: home?.emoji ?? "🏠" });
+    setHome(pos);
     setPickMode(false);
     setGpsState("idle");
     setFocus({ ...pos, key: Date.now() });
@@ -305,15 +305,20 @@ export default function VenueFinder() {
         {home ? (
           <div className="flex items-center gap-3 rounded-2xl bg-[#f5f5f7] px-3 py-2.5">
             <button
-              onClick={() => setEmojiOpen((o) => !o)}
-              className="grid h-10 w-10 shrink-0 place-items-center rounded-full bg-white text-[22px] shadow-sm"
-              aria-label="เปลี่ยนอีโมจิหมุดบ้าน"
+              onClick={() => setHomeMenu((o) => !o)}
+              className="grid h-10 w-10 shrink-0 place-items-center rounded-full bg-[#0071e3] text-white shadow-sm"
+              aria-label="ตัวเลือกหมุดบ้าน"
             >
-              {home.emoji}
+              <HouseIcon />
             </button>
             <div className="min-w-0 flex-1">
-              <p className="text-[14px] font-medium text-[#1d1d1f]">ปักหมุดบ้านแล้ว</p>
-              <p className="text-[12px] text-[#6e6e73]">เรียงสนามจากใกล้ไปไกล · ลากหมุดบนแผนที่เพื่อย้าย</p>
+              <p className="flex items-center gap-1 text-[14px] font-medium text-[#1d1d1f]">
+                ปักหมุดบ้านแล้ว
+                {!pickMode && <LockIcon className="h-3 w-3 text-[#86868b]" />}
+              </p>
+              <p className="text-[12px] text-[#6e6e73]">
+                {pickMode ? "แตะหรือลากหมุดบนแผนที่ เสร็จแล้วจะล็อกเอง" : "หมุดล็อกอยู่ · กด ย้าย เพื่อเปลี่ยนตำแหน่ง"}
+              </p>
             </div>
             <div className="flex shrink-0 gap-1">
               <button
@@ -331,7 +336,7 @@ export default function VenueFinder() {
                 }}
                 className={`rounded-full px-2.5 text-[13px] font-medium ${pickMode ? "bg-[#0071e3] text-white" : "text-[#0071e3] hover:bg-white"}`}
               >
-                {pickMode ? "แตะแผนที่" : "ย้าย"}
+                {pickMode ? "เสร็จ" : "ย้าย"}
               </button>
             </div>
           </div>
@@ -366,26 +371,24 @@ export default function VenueFinder() {
           <p className="mt-2 px-1 text-[12px] text-[#c4271f]">ไม่ได้รับอนุญาตให้ใช้ตำแหน่ง ลองแตะบนแผนที่เพื่อปักเองแทน</p>
         )}
         {gpsState === "error" && <p className="mt-2 px-1 text-[12px] text-[#c4271f]">หาตำแหน่งไม่สำเร็จ ลองอีกครั้งหรือแตะบนแผนที่</p>}
-        {emojiOpen && home && (
-          <div className="mt-2 grid grid-cols-6 gap-1 rounded-2xl bg-[#f5f5f7] p-2">
-            {HOME_EMOJIS.map((e) => (
-              <button
-                key={e}
-                onClick={() => {
-                  setHome({ ...home, emoji: e });
-                  setEmojiOpen(false);
-                }}
-                className={`grid h-10 place-items-center rounded-xl text-[22px] transition hover:bg-white ${home.emoji === e ? "bg-white shadow-sm" : ""}`}
-              >
-                {e}
-              </button>
-            ))}
+        {homeMenu && home && (
+          <div className="mt-2 flex gap-2 rounded-2xl bg-[#f5f5f7] p-2">
+            <button
+              onClick={() => {
+                setFocus({ ...home, zoom: 13, key: Date.now() });
+                setHomeMenu(false);
+              }}
+              className="flex-1 rounded-xl bg-white py-2 text-[13px] font-medium text-[#0071e3] shadow-sm"
+            >
+              ไปที่บ้าน
+            </button>
             <button
               onClick={() => {
                 setHome(null);
-                setEmojiOpen(false);
+                setHomeMenu(false);
+                setPickMode(false);
               }}
-              className="col-span-6 mt-1 rounded-xl py-1.5 text-[12.5px] text-[#c4271f] hover:bg-white"
+              className="flex-1 rounded-xl bg-white py-2 text-[13px] font-medium text-[#c4271f] shadow-sm"
             >
               ลบหมุดบ้าน
             </button>
@@ -455,7 +458,10 @@ export default function VenueFinder() {
         focus={focus}
         onSelect={(id) => select(id, false)}
         onPick={onPick}
-        onHomeDrag={(pos) => home && setHome({ ...home, ...pos })}
+        onHomeDrag={(pos) => {
+          setHome(pos);
+          setPickMode(false); // re-lock after moving
+        }}
       />
 
       {!pickMode && <Legend isDesktop={isDesktop} />}
@@ -463,7 +469,7 @@ export default function VenueFinder() {
       {pickMode && (
         <div className="pointer-events-none absolute inset-x-0 top-4 z-20 flex justify-center px-4 md:left-[436px]">
           <div className="pointer-events-auto flex items-center gap-3 rounded-full bg-[#1d1d1f]/90 py-2 pr-2 pl-4 text-[14px] text-white shadow-lg backdrop-blur">
-            แตะตำแหน่งบ้านบนแผนที่
+            แตะหรือลากหมุดไปที่บ้าน
             <button onClick={() => setPickMode(false)} className="rounded-full bg-white/15 px-3 py-1 text-[13px]">
               ยกเลิก
             </button>

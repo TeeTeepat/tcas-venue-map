@@ -29,36 +29,46 @@ body {
   display: none;
 }
 
-/* Emoji home pin */
+/* Home pin (locked by default; unlocked + pulsing while moving) */
 .home-pin {
   display: flex;
   flex-direction: column;
   align-items: center;
-  cursor: grab;
-  filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.22));
+  pointer-events: none;
+  filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.25));
 }
-.home-pin:active {
+.home-pin.is-unlocked {
+  pointer-events: auto;
+  cursor: grab;
+}
+.home-pin.is-unlocked:active {
   cursor: grabbing;
 }
-.home-pin-emoji {
+.home-pin-head {
   display: grid;
   place-items: center;
-  width: 46px;
-  height: 46px;
+  width: 40px;
+  height: 40px;
   border-radius: 9999px;
-  background: #fff;
-  font-size: 26px;
-  line-height: 1;
+  background: #0071e3;
   border: 3px solid #fff;
-  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.06);
+}
+.home-pin.is-unlocked .home-pin-head {
+  animation: home-pulse 1.2s ease-in-out infinite;
+}
+@keyframes home-pulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(0, 113, 227, 0.45); }
+  50% { box-shadow: 0 0 0 10px rgba(0, 113, 227, 0); }
 }
 .home-pin-tip {
   width: 12px;
   height: 12px;
-  margin-top: -7px;
-  background: #fff;
+  margin-top: -8px;
+  background: #0071e3;
+  border-right: 3px solid #fff;
+  border-bottom: 3px solid #fff;
   transform: rotate(45deg);
-  border-radius: 2px;
+  border-radius: 0 0 3px 0;
 }
 
 .maplibregl-ctrl-group {

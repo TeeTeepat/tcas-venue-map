@@ -2,9 +2,7 @@
 
 import { useCallback, useSyncExternalStore } from "react";
 
-export type Home = { lat: number; lng: number; emoji: string };
-
-export const HOME_EMOJIS = ["🏠", "🏡", "🐱", "🐶", "🐰", "🐻", "🐼", "🦊", "🐧", "⭐", "💖", "🍀"];
+export type Home = { lat: number; lng: number };
 
 const KEY = "tcas-venue-map:home";
 const listeners = new Set<() => void>();
@@ -14,7 +12,7 @@ function read(): Home | null {
   if (cached !== undefined) return cached;
   try {
     const v = JSON.parse(localStorage.getItem(KEY) || "null");
-    cached = v && typeof v.lat === "number" && typeof v.lng === "number" ? v : null;
+    cached = v && typeof v.lat === "number" && typeof v.lng === "number" ? { lat: v.lat, lng: v.lng } : null;
   } catch {
     cached = null;
   }

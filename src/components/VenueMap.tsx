@@ -201,7 +201,7 @@ export default function VenueMap(props: Props) {
     m.fitBounds(b, { padding: { top: 90, bottom: 30, left: 40, right: 50 }, maxZoom: 14, duration: 700 });
   }, [props.fit]);
 
-  // Emoji home marker.
+  // Home marker. Locked by default; draggable only while the user is moving it (pick mode).
   useEffect(() => {
     const m = map.current;
     if (!m) return;
@@ -214,8 +214,12 @@ export default function VenueMap(props: Props) {
     if (!homeMarker.current) {
       const node = document.createElement("div");
       node.className = "home-pin";
-      node.setAttribute("aria-label", "หมุดบ้าน (ลากเพื่อย้าย)");
-      const mk = new maplibregl.Marker({ element: node, draggable: true, anchor: "bottom" }).setLngLat([h.lng, h.lat]).addTo(m);
+      node.setAttribute("aria-label", "หมุดบ้าน");
+      // Static markup (no user data), safe to set directly.
+      node.innerHTML = `<span class="home-pin-head"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3.5 10.5 12 3.5l8.5 7"/><path d="M5.5 9v10.5h4.5v-5.5h4v5.5h4.5V9"/></svg></span><span class="home-pin-tip"></span>`;
+      const mk = new maplibregl.Marker({ element: node, draggable: latest.current.pickMode, anchor: "bottom" })
+        .setLngLat([h.lng, h.lat])
+        .addTo(m);
       mk.on("dragend", () => {
         const ll = mk.getLngLat();
         latest.current.onHomeDrag({ lat: ll.lat, lng: ll.lng });
@@ -224,20 +228,18 @@ export default function VenueMap(props: Props) {
     } else {
       homeMarker.current.setLngLat([h.lng, h.lat]);
     }
-    const node = homeMarker.current.getElement();
-    const emoji = document.createElement("span");
-    emoji.className = "home-pin-emoji";
-    emoji.textContent = h.emoji;
-    const tip = document.createElement("span");
-    tip.className = "home-pin-tip";
-    node.replaceChildren(emoji, tip);
   }, [props.home]);
 
-  // Crosshair cursor while picking.
+  // Crosshair cursor + unlock the home pin only while picking.
   useEffect(() => {
     const m = map.current;
     if (m) m.getCanvas().style.cursor = props.pickMode ? "crosshair" : "";
-  }, [props.pickMode]);
+    const mk = homeMarker.current;
+    if (mk) {
+      mk.setDraggable(props.pickMode);
+      mk.getElement().classList.toggle("is-unlocked", props.pickMode);
+    }
+  }, [props.pickMode, props.home]);
 
   return (
     <div className="absolute inset-0">

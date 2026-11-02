@@ -16,7 +16,7 @@ export function HomeDistance({ venue }: { venue: Venue }) {
   return (
     <span>
       {" "}
-      · ห่างบ้าน {home.emoji} {formatKm(distanceKm(home, venue))}
+      · ห่างบ้าน {formatKm(distanceKm(home, venue))}
     </span>
   );
 }

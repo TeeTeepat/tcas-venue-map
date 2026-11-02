@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useLayoutEffect, useRef } from "react";
+import { useEffect, useLayoutEffect, useRef, useState } from "react";
 import * as maplibregl from "maplibre-gl";
 import type { GeoJSONSource, Map as MLMap, Marker } from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
@@ -14,7 +14,17 @@ const THAILAND_BOUNDS: [[number, number], [number, number]] = [
   [105.7, 20.5],
 ];
 
-maplibregl.setWorkerUrl("/maplibre-gl-worker.mjs");
+// Versioned URL so browsers that cached a bad copy of the worker fetch a fresh one.
+maplibregl.setWorkerUrl(`/maplibre-gl-worker.mjs?v=${maplibregl.getVersion()}-2`);
+
+function hasWebGL() {
+  try {
+    const c = document.createElement("canvas");
+    return !!(c.getContext("webgl2") || c.getContext("webgl"));
+  } catch {
+    return false;
+  }
+}
 
 type Props = {
   venues: Venue[];
@@ -81,6 +91,9 @@ export default function VenueMap(props: Props) {
   const meMarker = useRef<Marker | null>(null);
   const flyToMePending = useRef(false);
   const ready = useRef(false);
+  const [webglMissing] = useState(() => !hasWebGL());
+  const [loadFailed, setLoadFailed] = useState(false);
+  const failure = webglMissing ? "webgl" : loadFailed ? "load" : null;
   const latest = useRef(props);
   useLayoutEffect(() => {
     latest.current = props;
@@ -88,7 +101,7 @@ export default function VenueMap(props: Props) {
 
   // Create map once.
   useEffect(() => {
-    if (!el.current) return;
+    if (!el.current || webglMissing) return;
     const m = new maplibregl.Map({
       container: el.current,
       style: MAP_STYLE,
@@ -115,7 +128,13 @@ export default function VenueMap(props: Props) {
     m.addControl(new maplibregl.AttributionControl({ compact: true }), "top-right");
     map.current = m;
 
+    // If the map never finishes loading (blocked worker/tiles, bad network), say so instead of a blank area.
+    const loadTimer = window.setTimeout(() => {
+      if (!ready.current) setLoadFailed(true);
+    }, 15000);
     m.on("load", () => {
+      window.clearTimeout(loadTimer);
+      setLoadFailed(false);
       m.addSource("venues", {
         type: "geojson",
         data: toGeoJSON(latest.current.venues, latest.current.ranks, latest.current.selectedId),
@@ -199,11 +218,12 @@ export default function VenueMap(props: Props) {
     });
 
     return () => {
+      window.clearTimeout(loadTimer);
       ready.current = false;
       m.remove();
       map.current = null;
     };
-  }, []);
+  }, [webglMissing]);
 
   // Venue data / selection.
   useEffect(() => {
@@ -307,6 +327,22 @@ export default function VenueMap(props: Props) {
   return (
     <div className="absolute inset-0">
       <div ref={el} className="h-full w-full" />
+      {failure && (
+        <div className="absolute inset-x-0 top-24 z-10 flex justify-center px-6">
+          <div className="glass max-w-xs rounded-2xl px-5 py-4 text-center">
+            <p className="text-[15px] font-semibold text-[#1d1d1f]">แผนที่โหลดไม่ขึ้น</p>
+            <p className="mt-1 text-[12.5px] leading-snug text-[#6e6e73]">
+              {failure === "webgl"
+                ? "เบราว์เซอร์นี้ปิดการแสดงผลกราฟิก (WebGL) ลองเปิดด้วย Safari หรือ Chrome แทนแอปแชต"
+                : "เน็ตช้าหรือเบราว์เซอร์บล็อกไว้ ลองโหลดใหม่ หรือเปิดด้วย Safari / Chrome"}
+            </p>
+            <button onClick={() => window.location.reload()} className="mt-3 rounded-full bg-[#1d1d1f] px-4 py-2 text-[13px] font-medium text-white">
+              โหลดใหม่
+            </button>
+            <p className="mt-2 text-[11.5px] text-[#86868b]">รายการสนามด้านล่างยังใช้ได้ตามปกติ</p>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
